@@ -1,0 +1,11 @@
+.skin-blue .main-header .navbar {
+    background-color: #c74332 !important;
+}
+
+.skin-blue .main-header .logo {
+    background-color: #a93636 !important;
+}
+
+.skin-blue .sidebar-menu>li.active>a {
+    border-left-color: #bc3c3c !important;
+}
