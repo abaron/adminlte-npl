@@ -14,3 +14,9 @@ function listPages() {
         echo '<a href="/?page='. $filename .'">' . $filename . '</a><br />';
     }
 }
+
+### FUNCTIONS
+
+function setBreadCrumb() {
+    echo '123';
+}
