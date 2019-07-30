@@ -99,5 +99,9 @@
 <script src="dist/js/demo.js"></script>
 
 <script src="/npl/js/jquery-confirm.min.js"></script>
+<script src="/npl/js/dropzone.js"></script>
+<script src="/npl/js/script.js"></script>
+
+<?= !empty($script) ? '<script type="text/javascript">' . $script . '</script>' : "" ?>
 </body>
 </html>
