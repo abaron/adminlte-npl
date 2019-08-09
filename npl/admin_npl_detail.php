@@ -6,11 +6,11 @@
     <section class="content-header">
         <h1>
             NPL
-            <small>Create</small>
+            <small>Detail</small>
         </h1>
         <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> NPL</a></li>
-            <li class="active">Create</li>
+            <li class="active">33 / X / Y / Z</li>
         </ol>
     </section>
 
@@ -20,7 +20,9 @@
             <div class="col-xs-12">
                 <div class="box">
                     <div class="box-header">
-                        <h3 class="box-title">Create NPL Form</h3>
+                        <h3 class="box-title">Detail NPL 33 / X / Y / Z</h3>
+
+                        <button type="submit" class="btn btn-sm btn-primary pull-right"><i class="fa fa-download"></i> Export</button>
                     </div>
                     <form action="#" class="form-horizontal">
                     <!-- /.box-header -->
@@ -32,7 +34,7 @@
                                         <div class="form-group">
                                             <label for="kancatel-input" class="col-sm-2 control-label">Kancatel</label>
                                             <div class="col-sm-10">
-                                                <input type="text" class="form-control" id="kancatel-input" placeholder="Nama Kancatel">
+                                                <label class="control-label">Pondok Gede</label>
                                             </div>
                                         </div>
                                     </td>
@@ -40,13 +42,7 @@
                                         <div class="form-group">
                                             <label for="STO-input" class="col-sm-2 control-label">STO</label>
                                             <div class="col-sm-10">
-                                                <select class="form-control" id="STO-input">
-                                                    <option disabled selected>-- Pilih --</option>
-                                                    <option>PDE</option>
-                                                    <option>HRI</option>
-                                                    <option>PWR</option>
-                                                    <option>KLA</option>
-                                                </select>
+                                                <label class="control-label">PDE</label>
                                             </div>
                                         </div>
                                     </td>
@@ -56,7 +52,7 @@
                                         <div class="form-group">
                                             <label for="nomor-input" class="col-sm-2 control-label">Nomor</label>
                                             <div class="col-sm-10">
-                                                <input type="text" class="form-control" id="nomor-input" value="33 / PDE / X / 2019" readonly>
+                                                <label class="control-label">33 / X / Y / Z</label>
                                             </div>
                                         </div>
                                     </td>
@@ -64,7 +60,7 @@
                                         <div class="form-group">
                                             <label for="tanggal-input" class="col-sm-2 control-label">Tanggal</label>
                                             <div class="col-sm-10">
-                                                <input type="text" class="form-control" id="tanggal-input" value="20 Juli 2019" readonly>
+                                                <label class="control-label">20 Juli 2019</label>
                                             </div>
                                         </div>
                                     </td>
@@ -75,10 +71,11 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <textarea class="form-control" rows="3" placeholder="Pemeriksaan lapangan ..." style="margin: 0px 2px 0px 0px; height: 105px;"></textarea>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                     </td>
                                     <td>
-                                        <textarea class="form-control" rows="3" placeholder="Lingkup pekerjaan ..." style="margin: 0px 2px 0px 0px; height: 105px;"></textarea>
+                                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -89,16 +86,11 @@
                                 </tr>
                                 <tr>
                                     <td colspan="2" class="text-center">
-                                        <div class="dropzone-npl">
-                                            <div class="dz-message needsclick">
-                                                <!-- Drop files here or click to upload.<br>
-                                                <span class="note needsclick">(This is just a demo dropzone. Selected
-                                                files are <strong>not</strong> actually uploaded.)</span> -->
-                                                Unggah Berkas<br />
-                                                Seret berkas ke sini atau klik untuk memilih berkas.<br />
-                                                <span class="note needsclick">(Harap mengunggah setidaknya <strong>2</strong> gambar.)</span>
-                                            </div>
-                                        </div>
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-default"><i class="fa fa-download"></i> Download</button>
+                                        <button type="button" class="btn btn-default"><i class="fa fa-eye"></i> Lihat</button>
+                                        <button type="button" class="btn btn-default"><i class="fa fa-external-link"> Buka di tab baru</i></button>
+                                    </div>
                                     </td>
                                 </tr>
                                 <tr>
@@ -255,7 +247,7 @@
                     <div class="box-footer">
                         <button type="#" class="btn btn-default">Cancel</button>
                         <button type="reset" class="btn btn-default">Reset</button>
-                        <button type="submit" class="btn btn-info pull-right publish-npl">Publish</button>
+                        <button type="submit" class="btn btn-info pull-right">Publish</button>
                         <button type="submit" class="btn btn-warning pull-right" style="margin-right: 5px;">Save to Draft</button>
                     </div>
                     </form>
@@ -273,11 +265,10 @@
 
 $componentsPath = dirname(__FILE__) . '/components/';
 
-$header = file_get_contents($componentsPath . 'headers/user.php');
-$navbar = file_get_contents($componentsPath . 'navbars/user.php');
+$header = file_get_contents($componentsPath . 'headers/admin.php');
+$navbar = file_get_contents($componentsPath . 'navbars/admin.php');
 $footer = file_get_contents($componentsPath . 'footer.php');
-$sidebar = file_get_contents($componentsPath . 'sidebars/user.php');
+$sidebar = file_get_contents($componentsPath . 'sidebars/admin.php');
 $content = ob_get_clean();
-$script = file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'js/' . basename(substr(__FILE__, 0, strrpos(__FILE__, '.'))) . '.js');
 
 include('components/layout.php');

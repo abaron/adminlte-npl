@@ -6,11 +6,11 @@
     <section class="content-header">
         <h1>
             NPL
-            <small>Create</small>
+            <small>Edit</small>
         </h1>
         <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> NPL</a></li>
-            <li class="active">Create</li>
+            <li class="active">Edit</li>
         </ol>
     </section>
 
@@ -20,7 +20,7 @@
             <div class="col-xs-12">
                 <div class="box">
                     <div class="box-header">
-                        <h3 class="box-title">Create NPL Form</h3>
+                        <h3 class="box-title">Edit NPL Form</h3>
                     </div>
                     <form action="#" class="form-horizontal">
                     <!-- /.box-header -->
@@ -32,7 +32,7 @@
                                         <div class="form-group">
                                             <label for="kancatel-input" class="col-sm-2 control-label">Kancatel</label>
                                             <div class="col-sm-10">
-                                                <input type="text" class="form-control" id="kancatel-input" placeholder="Nama Kancatel">
+                                                <input type="text" class="form-control" id="kancatel-input" placeholder="Nama Kancatel" value="PONDOK GEDE">
                                             </div>
                                         </div>
                                     </td>
@@ -41,8 +41,8 @@
                                             <label for="STO-input" class="col-sm-2 control-label">STO</label>
                                             <div class="col-sm-10">
                                                 <select class="form-control" id="STO-input">
-                                                    <option disabled selected>-- Pilih --</option>
-                                                    <option>PDE</option>
+                                                    <option disabled>-- Pilih --</option>
+                                                    <option selected>PDE</option>
                                                     <option>HRI</option>
                                                     <option>PWR</option>
                                                     <option>KLA</option>
@@ -255,7 +255,7 @@
                     <div class="box-footer">
                         <button type="#" class="btn btn-default">Cancel</button>
                         <button type="reset" class="btn btn-default">Reset</button>
-                        <button type="submit" class="btn btn-info pull-right publish-npl">Publish</button>
+                        <button type="submit" class="btn btn-info pull-right">Publish</button>
                         <button type="submit" class="btn btn-warning pull-right" style="margin-right: 5px;">Save to Draft</button>
                     </div>
                     </form>
