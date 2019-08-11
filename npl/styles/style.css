@@ -1,3 +1,8 @@
+.table thead.th-center th {
+    text-align: center;
+    vertical-align: middle !important;
+}
+
 .skin-blue .main-header .navbar {
     background-color: #c74332 !important;
 }
