@@ -59,44 +59,64 @@
                             </div>
                         </form>
                         <table class="table table-hover table-bordered table-striped table-responsive table-condensed">
-                            <thead>
+                            <thead class="th-center">
                                 <tr>
-                                    <th>No</th>
-                                    <th>Project</th>
-                                    <th>STO</th>
-                                    <th>Lokasi</th>
-                                    <th>-</th>
-                                    <th>-</th>
-                                    <th>Total</th>
+                                    <th rowspan="2">No.</th>
+                                    <th rowspan="2">Tanggal</th>
+                                    <th rowspan="2">No. NPL</th>
+                                    <th rowspan="2">STO</th>
+                                    <th rowspan="2">Lokasi</th>
+                                    <th colspan="2">ODP</th>
+                                    <th colspan="3">DRM BoQ</th>
+                                    <th rowspan="2">Select All<br /><input type="checkbox" id="checkbox-1-0" class="regular-checkbox" /><label for="checkbox-1-0"></label></th>
+                                </tr>
+                                <tr>
+                                    <th>8</th>
+                                    <th>16</th>
+                                    <th>M</th>
+                                    <th>J</th>
+                                    <th>T</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>A</td>
-                                    <td>Kali Abang</td>
-                                    <td>Jl. Jambu 2</td>
-                                    <td><input type="text" name="" id="" class="form-control"></td>
-                                    <td><input type="text" name="" id="" class="form-control"></td>
-                                    <td><input type="text" name="" id="" class="form-control" readonly></td>
+                                    <td>31 Juli 2019</td>
+                                    <td>33 / PDE / VII / 2019</td>
+                                    <td>PDE</td>
+                                    <td>Jl. Sentral Jaya No. 36</td>
+                                    <td><input type="text" class="form-control" style="width:50px"></td>
+                                    <td><input type="text" class="form-control" style="width:50px"></td>
+                                    <td><input type="text" class="form-control"></td>
+                                    <td><input type="text" class="form-control"></td>
+                                    <td><input type="text" class="form-control" readonly></td>
+                                    <td class="text-center"><input type="checkbox" id="checkbox-1-1" class="regular-checkbox" /><label for="checkbox-1-1"></label></td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>B</td>
-                                    <td>Pondok Gede</td>
-                                    <td>Jl. Duren 3</td>
-                                    <td><input type="text" name="" id="" class="form-control"></td>
-                                    <td><input type="text" name="" id="" class="form-control"></td>
-                                    <td><input type="text" name="" id="" class="form-control" readonly></td>
+                                    <td>20 Juli 2019</td>
+                                    <td>31 / PDE / VII / 2019</td>
+                                    <td>PDE</td>
+                                    <td>Jl. Jatiwaringin No. 55</td>
+                                    <td><input type="text" class="form-control" style="width:50px"></td>
+                                    <td><input type="text" class="form-control" style="width:50px"></td>
+                                    <td><input type="text" class="form-control"></td>
+                                    <td><input type="text" class="form-control"></td>
+                                    <td><input type="text" class="form-control" readonly></td>
+                                    <td class="text-center"><input type="checkbox" id="checkbox-1-2" class="regular-checkbox" /><label for="checkbox-1-2"></label></td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>C</td>
-                                    <td>Perwira</td>
-                                    <td>Jl. Manggis 4</td>
-                                    <td><input type="text" name="" id="" class="form-control"></td>
-                                    <td><input type="text" name="" id="" class="form-control"></td>
-                                    <td><input type="text" name="" id="" class="form-control" readonly></td>
+                                    <td>17 November 2018</td>
+                                    <td>59 / PKY / XI / 2018</td>
+                                    <td>PKY</td>
+                                    <td>Jl. Wibawa Mukti 2 No. 15</td>
+                                    <td><input type="text" class="form-control" style="width:50px"></td>
+                                    <td><input type="text" class="form-control" style="width:50px"></td>
+                                    <td><input type="text" class="form-control"></td>
+                                    <td><input type="text" class="form-control"></td>
+                                    <td><input type="text" class="form-control" readonly></td>
+                                    <td class="text-center"><input type="checkbox" id="checkbox-1-3" class="regular-checkbox" /><label for="checkbox-1-3"></label></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -104,7 +124,7 @@
                     <!-- /.box-body -->
                     <div class="box-footer clearfix">
                         <input type="button" class="btn btn-primary pull-right" value="Submit">
-                        <input type="button" class="btn btn-warning pull-right" value="Upload" style="margin-right: 5px;" data-toggle="modal" data-target="#modal-id">
+                        <input type="button" class="btn btn-warning pull-right" value="Update" style="margin-right: 5px;" data-toggle="modal" data-target="#modal-id">
                         <input type="button" class="btn btn-default pull-right" value="Cancel" style="margin-right: 5px;">
                     </div>
                 </div>

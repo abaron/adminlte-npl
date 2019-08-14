@@ -48,14 +48,14 @@
                                     <th rowspan="2">Tgl. Capex</th>
                                     <th rowspan="2">Capex Group Name</th>
                                     <th rowspan="2">Budget</th>
-                                    <th rowspan="2">Current Pros...</th>
+                                    <th rowspan="2">Current Project Total</th>
                                     <th rowspan="2">LoP</th>
                                     <th rowspan="2">Deadline</th>
                                     <th colspan="5">Action</th>
                                 </tr>
                                 <tr>
                                     <th>View</th>
-                                    <th>Mng Project</th>
+                                    <th>+/- Project</th>
                                     <th>Upload</th>
                                     <th>Complete</th>
                                     <th>Delete</th>
@@ -72,7 +72,7 @@
                                     <td>21 September 2019</td>
                                     <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
                                     <td class="text-center"><a href="#"><i class="fa fa-gear"></i></a></td>
-                                    <td class="text-center"><a href="#"data-toggle="modal" data-target="#capex-upload"><i class="fa fa-upload"></i></a></td>
+                                    <td class="text-center"><a href="#" data-toggle="modal" data-target="#capex-upload"><i class="fa fa-upload"></i></a></td>
                                     <td class="text-center"><a href="#"><i class="fa fa-check"></i></a></td>
                                     <td class="text-center"><a href="#" class="capex-delete"><i class="fa fa-close"></i></a></td>
                                 </tr>

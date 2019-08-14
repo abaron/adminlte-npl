@@ -92,7 +92,7 @@
                                         <td>Jl. Pondok Raya</td>
                                         <td>Pondok Gede</td>
                                         <td>15</td>
-                                        <td><label class="label label-success">Approved</label></td>
+                                        <td><label class="label label-success">Step 1</label></td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
@@ -100,7 +100,7 @@
                                         <td>Jl. Pondok Raya</td>
                                         <td>Pondok Gede</td>
                                         <td>19</td>
-                                        <td><label class="label label-danger">Rejected</label></td>
+                                        <td><label class="label label-success">Step 2</label></td>
                                     </tr>
                                     <tr>
                                         <td>3</td>
@@ -108,7 +108,7 @@
                                         <td>Jl. Perwira No. 17</td>
                                         <td>Perwira</td>
                                         <td>10</td>
-                                        <td><label class="label label-success">Approved</label></td>
+                                        <td><label class="label label-success">Step 3</label></td>
                                     </tr>
                                     <tr>
                                         <td>4</td>
@@ -116,7 +116,7 @@
                                         <td>Jl. Perwira No. 15</td>
                                         <td>Perwira</td>
                                         <td>9</td>
-                                        <td><label class="label label-success">Approved</label></td>
+                                        <td><label class="label label-success">Step 3</label></td>
                                     </tr>
                                     <tr>
                                         <td>5</td>
@@ -124,7 +124,7 @@
                                         <td>Jl. Perwira No. 12</td>
                                         <td>Perwira</td>
                                         <td>9</td>
-                                        <td><label class="label label-success">Approved</label></td>
+                                        <td><label class="label label-success">Step 3</label></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -154,7 +154,7 @@
                                         <td>Jl. Pondok Raya No. 7</td>
                                         <td>Pondok Gede</td>
                                         <td>15</td>
-                                        <td><label class="label label-success">Approved</label></td>
+                                        <td><label class="label label-success">Step 5</label></td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
@@ -162,7 +162,7 @@
                                         <td>Jl. Lingkar Tengah No. 4</td>
                                         <td>Perwira</td>
                                         <td>11</td>
-                                        <td><label class="label label-success">Approved</label></td>
+                                        <td><label class="label label-success">Step 5</label></td>
                                     </tr>
                                 </tbody>
                             </table>

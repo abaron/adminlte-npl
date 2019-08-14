@@ -20,7 +20,7 @@
             <div class="col-xs-12">
                 <div class="box">
                     <div class="box-header">
-                        <h3 class="box-title">List NPL</h3>
+                        <h3 class="box-title">Track Order</h3>
 
                         <div class="box-tools">
                             <div class="input-group input-group-sm" style="width: 250px;">
@@ -43,6 +43,8 @@
                             <div class="col-md-4">
                                 <select class="form-control">
                                     <option>-- Pilih ---</option>
+                                    <option>No. NPL</option>
+                                    <option>Lokasi</option>
                                 </select>
                             </div>
                             <div class="col-md-8">

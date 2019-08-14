@@ -4,44 +4,39 @@
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
-      <h1>
-        Report
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Report</a></li>
-        <li class="active">General</li>
-      </ol>
+        <h1>
+            Report
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="#">Report</a></li>
+            <li class="active">General</li>
+        </ol>
     </section>
 
     <!-- Main content -->
     <section class="content">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="box">
-            <div class="box-header">
-              <h3 class="box-title">Report NPL Area Bekasi</h3>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="box">
+                    <div class="box-header">
+                        <h3 class="box-title">Report NPL Area Bekasi</h3>
 
-              <div class="box-tools">
-                <div class="input-group input-group-sm" style="width: 150px;">
-                  <input type="text" name="table_search" class="form-control pull-right" placeholder="Search">
+                        <div class="box-tools">
+                            <div class="input-group input-group-sm" style="width: 250px;">
+                                <input type="text" name="table_search" class="form-control pull-right" placeholder="Search">
 
-                  <div class="input-group-btn">
-                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body table-responsive no-padding">
-              <style type="text/css">
-                .table th {
-                  text-align: center;
-                  vertical-align: middle !important;
-                }
-              </style>
-              <table class="table table-hover table-bordered table-striped table-responsive table-condensed">
-                <thead>
+                                <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                                    <button type="submit" class="btn btn-primary" style="margin-left: 10px;"><i class="fa fa-download"></i> Export</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body table-responsive no-padding">
+                        <!-- <table class="table table-hover table-bordered table-striped table-responsive table-condensed">
+                <thead class="th-center">
                   <tr>
                     <th rowspan="3">Witel</th>
                     <th rowspan="2" colspan="2">TA DC</th>
@@ -167,10 +162,323 @@
                     <td>1433</td>
                   </tr>
                 </tbody>
-              </table>
-            </div>
-            <!-- /.box-body -->
-            <!-- <div class="box-footer clearfix">
+              </table> -->
+                        <table class="table table-hover table-bordered table-striped table-responsive table-condensed">
+                            <thead class="th-center">
+                                <tr>
+                                    <th rowspan="2" class="text-white bg-red">STO</th>
+                                    <th class="text-white bg-aqua">Input Order</th>
+                                    <th colspan="3" class="text-white bg-green">Optima Approval</th>
+                                    <th colspan="2" class="text-white bg-orange">SDI</th>
+                                    <th colspan="3" class="text-white bg-blue">Project</th>
+                                    <th rowspan="2" class="text-white bg-green">TOTAL ORDER</th>
+                                </tr>
+                                    <tr>
+                                        <th class="text-white bg-aqua">Draft</th>
+                                        <th class="text-white bg-green">Submitted</th>
+                                        <th class="text-white bg-green">Pending</th>
+                                        <th class="text-white bg-green">Cancel</th>
+                                        <th class="text-white bg-orange">Survey</th>
+                                        <th class="text-white bg-orange">Design</th>
+                                        <th class="text-white bg-blue">Preparation</th>
+                                        <th class="text-white bg-blue">Instalasi</th>
+                                        <th class="text-white bg-blue">Completed</th>
+                                    </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>BBL</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>BEK</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>BGG</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>CBG</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>CIB</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>CIK</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>DNI</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>EJI</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>JBB</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>KLB</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>KRA</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>LMA</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>MGB</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>PBY</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>PDE</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>PKY</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>SMH</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>STN</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>SUE</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>TAR</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>TBL</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr class="text-white bg-red">
+                                    <td>TOTAL</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    <!-- /.box-body -->
+                    <!-- <div class="box-footer clearfix">
               <ul class="pagination pagination-sm no-margin pull-right">
                 <li><a href="#">&laquo;</a></li>
                 <li><a href="#">1</a></li>
@@ -179,13 +487,13 @@
                 <li><a href="#">&raquo;</a></li>
               </ul>
             </div> -->
-          </div>
-          <!-- /.box -->
+                </div>
+                <!-- /.box -->
+            </div>
         </div>
-      </div>
     </section>
     <!-- /.content -->
-  </div>
+</div>
 <!-- /.content-wrapper -->
 
 <?php

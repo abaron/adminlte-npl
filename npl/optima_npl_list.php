@@ -6,11 +6,11 @@
     <section class="content-header">
         <h1>
             NPL
-            <small>List</small>
+            <small>Submission List</small>
         </h1>
         <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> NPL</a></li>
-            <li class="active">List</li>
+            <li class="active">Submission List</li>
         </ol>
     </section>
 
@@ -20,7 +20,7 @@
             <div class="col-xs-12">
                 <div class="box">
                     <div class="box-header">
-                        <h3 class="box-title">List NPL</h3>
+                        <h3 class="box-title">NPL Submission List</h3>
 
                         <div class="box-tools">
                             <div class="input-group input-group-sm" style="width: 250px;">
@@ -49,10 +49,14 @@
                                     <th rowspan="2">No. NPL</th>
                                     <th rowspan="2">STO</th>
                                     <th rowspan="2">Lokasi</th>
+                                    <th colspan="2">ODP</th>
+                                    <th rowspan="2">Port</th>
                                     <th rowspan="2">Status</th>
                                     <th colspan="4">Action</th>
                                 </tr>
                                 <tr>
+                                    <th>8</th>
+                                    <th>16</th>
                                     <th>View</th>
                                     <th>Approve</th>
                                     <th>Hold</th>
@@ -66,6 +70,9 @@
                                     <td>33 / PDE / VII / 2019</td>
                                     <td>Pondok Gede</td>
                                     <td>Jl. Sentral Jaya No. 36</td>
+                                    <td>6</td>
+                                    <td>5</td>
+                                    <td>4</td>
                                     <td><span class="label label-primary">Waiting</span></td>
                                     <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
                                     <td class="text-center"><a href="#" class="npl-approve"><i class="fa fa-check text-green"></i></a></td>
@@ -78,6 +85,9 @@
                                     <td>31 / PDE / VII / 2019</td>
                                     <td>Pondok Gede</td>
                                     <td>Jl. Sentral Jaya No. 2</td>
+                                    <td>10</td>
+                                    <td>9</td>
+                                    <td>9</td>
                                     <td><span class="label label-success">Approved</span></td>
                                     <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
                                     <td class="text-center"><a href="#"><i class="fa fa-check text-gray"></i></a></td>
@@ -90,6 +100,9 @@
                                     <td>23 / HPI / III / 2019</td>
                                     <td>Harapan Indah</td>
                                     <td>Jl. Bulevard Raya No. 132</td>
+                                    <td>10</td>
+                                    <td>9</td>
+                                    <td>7</td>
                                     <td><span class="label label-danger">Rejected</span></td>
                                     <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
                                     <td class="text-center"><a href="#"><i class="fa fa-check text-gray"></i></a></td>
@@ -102,11 +115,14 @@
                                     <td>18 / PWR / II / 2019</td>
                                     <td>Perwira</td>
                                     <td>Jl. Binangun 5 No. 7</td>
+                                    <td>7</td>
+                                    <td>7</td>
+                                    <td>6</td>
                                     <td><span class="label label-warning">Hold</span></td>
                                     <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
-                                    <td class="text-center"><a href="#"><i class="fa fa-check text-gray"></i></a></td>
+                                    <td class="text-center"><a href="#"><i class="fa fa-check text-green"></i></a></td>
                                     <td class="text-center"><a href="#"><i class="fa fa-pause text-gray"></i></a></td>
-                                    <td class="text-center"><a href="#"><i class="fa fa-eject text-gray"></i></a></td>
+                                    <td class="text-center"><a href="#"><i class="fa fa-eject text-red"></i></a></td>
                                 </tr>
                             </tbody>
                         </table>

@@ -54,6 +54,23 @@
         </div>
       </div>
     </div>
+    <div class="row">
+        <div class="col-md-12">
+        <div class="nav-tabs-custom">
+            <!-- Tabs within a box -->
+            <ul class="nav nav-tabs pull-right">
+              <li class="active"><a href="#revenue-chart" data-toggle="tab">Area</a></li>
+              <li><a href="#sales-chart" data-toggle="tab">Donut</a></li>
+              <li class="pull-left header"><i class="fa fa-inbox"></i> Survey & Design Stats</li>
+            </ul>
+            <div class="tab-content no-padding">
+              <!-- Morris chart - Sales -->
+              <div class="chart tab-pane active" id="revenue-chart-2" style="position: relative; height: 300px;"></div>
+              <div class="chart tab-pane" id="sales-chart" style="position: relative; height: 300px;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
   </section>
   <!-- /.content -->
 </div>
@@ -67,5 +84,6 @@ $navbar = file_get_contents($componentsPath . 'navbars/sdi.php');
 $footer = file_get_contents($componentsPath . 'footer.php');
 $sidebar = file_get_contents($componentsPath . 'sidebars/sdi.php');
 $content = ob_get_clean();
+$script = file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'js/' . basename(substr(__FILE__, 0, strrpos(__FILE__, '.'))) . '.js');
 
 include('components/layout.php');

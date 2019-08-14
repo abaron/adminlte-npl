@@ -10,7 +10,7 @@
         </h1>
         <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> NPL</a></li>
-            <li class="active">33 / X / Y / Z</li>
+            <li class="active">33 / PDE / VII / 2019</li>
         </ol>
     </section>
 
@@ -20,242 +20,413 @@
             <div class="col-xs-12">
                 <div class="box">
                     <div class="box-header">
-                        <h3 class="box-title">Detail NPL 33 / X / Y / Z</h3>
-
-                        <button type="submit" class="btn btn-sm btn-primary pull-right"><i class="fa fa-download"></i> Export</button>
+                        <h3 class="box-title">Detail NPL 33 / PDE / VII / 2019</h3>
+                        <button type="submit" class="btn btn-sm btn-primary pull-right"><i class="fa fa-download"></i>
+                            Export</button>
                     </div>
-                    <form action="#" class="form-horizontal">
                     <!-- /.box-header -->
                     <div class="box-body table-responsive no-padding">
-                        <table class="table table-bordered table-responsive table-condensed">
-                            <tbody>
-                                <tr>
-                                    <td style="width:65%">
-                                        <div class="form-group">
-                                            <label for="kancatel-input" class="col-sm-2 control-label">Kancatel</label>
-                                            <div class="col-sm-10">
-                                                <label class="control-label">Pondok Gede</label>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="form-group">
-                                            <label for="STO-input" class="col-sm-2 control-label">STO</label>
-                                            <div class="col-sm-10">
-                                                <label class="control-label">PDE</label>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="form-group">
-                                            <label for="nomor-input" class="col-sm-2 control-label">Nomor</label>
-                                            <div class="col-sm-10">
-                                                <label class="control-label">33 / X / Y / Z</label>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="form-group">
-                                            <label for="tanggal-input" class="col-sm-2 control-label">Tanggal</label>
-                                            <div class="col-sm-10">
-                                                <label class="control-label">20 Juli 2019</label>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center"><b>HASIL PEMERIKSAAN</b></td>
-                                    <td class="text-center"><b>LINGKUP PEKERJAAN</b></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                    </td>
-                                    <td>
-                                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2" class="text-center"><b>GAMBAR LOKASI</b></td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2" class="text-center"></td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2" class="text-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-default"><i class="fa fa-download"></i> Download</button>
-                                        <button type="button" class="btn btn-default"><i class="fa fa-eye"></i> Lihat</button>
-                                        <button type="button" class="btn btn-default"><i class="fa fa-external-link"> Buka di tab baru</i></button>
-                                    </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2">
-                                        <img src="/npl/images/npl-create-map.png" style="width:100%"/>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center"><b>USULAN</b></td>
-                                    <td class="text-center"><b>KEBUTUHAN MATERIAL</b></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span>PENARIKAN KABEL FO:</span>
-                                        <div class="form-group">
-                                            <label for="" class="col-sm-4 control-label">Kabel Duct FO</label>
-                                            <div class="col-sm-4">
-                                                <input type="text" class="form-control" id="" placeholder="Kabel Duct FO">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="" class="col-sm-4 control-label">Kabel Udara FO 12c</label>
-                                            <div class="col-sm-4">
-                                                <input type="text" class="form-control" id="" placeholder="Kabel Udara FO 12c">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="" class="col-sm-4 control-label">Pembangunan PT<br /><sup>(Provisioning Type)</sup></label>
-                                            <div class="col-sm-4">
-                                                <select class="form-control" id="">
-                                                    <option disabled selected>-- Pilih --</option>
-                                                    <option>PT3</option>
-                                                    <option>PT2 Plus</option>
-                                                    <option>PT2</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <!-- <div class="form-group">
-                                            <label for="" class="col-sm-4 control-label">Feeder</label>
-                                            <div class="col-sm-8">
-                                                <div class="input-group">
-                                                    <input type="text" class="form-control" placeholder="Feeder">
-                                                    <span class="input-group-addon">Meter</span>
-                                                </div>
-                                            </div>
-                                        </div> -->
-                                        <div class="form-group">
-                                            <label for="" class="col-sm-4 control-label">Spliter 1/4</label>
-                                            <div class="col-sm-8">
-                                                <div class="input-group">
-                                                    <input type="text" class="form-control" placeholder="Spliter 1/4">
-                                                    <span class="input-group-addon">Buah</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="" class="col-sm-4 control-label">Spliter 1/8</label>
-                                            <div class="col-sm-8">
-                                                <div class="input-group">
-                                                    <input type="text" class="form-control" placeholder="Spliter 1/8">
-                                                    <span class="input-group-addon">Buah</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="" class="col-sm-4 control-label">ODP</label>
-                                            <div class="col-sm-8">
-                                                <div class="input-group">
-                                                    <input type="text" class="form-control" placeholder="ODP">
-                                                    <span class="input-group-addon">Buah</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="" class="col-sm-4 control-label">Crosure</label>
-                                            <div class="col-sm-8">
-                                                <div class="input-group">
-                                                    <input type="text" class="form-control" placeholder="Crosure">
-                                                    <span class="input-group-addon">Buah</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="" class="col-sm-4 control-label">Tiang</label>
-                                            <div class="col-sm-8">
-                                                <div class="input-group">
-                                                    <input type="text" class="form-control" placeholder="Tiang">
-                                                    <span class="input-group-addon">Batang</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="col-md-8 col-md-offset-2">
-                                            <div class="form-group">
-                                                <div class="col-sm-8">
-                                                    <p class="text-center">MITRA</p>
-                                                </div>
-                                                <div class="col-sm-8">
-                                                    <div class="input-group">
-                                                        <span class="input-group-addon">PT.</span>
-                                                        <input type="text" class="form-control" placeholder="Nama Perusahaan">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div style="padding-top: 150px"></div>
-                                        <div class="col-md-8 col-md-offset-2">
-                                            <div class="form-group">
-                                                <div class="col-sm-8">
-                                                    <input type="text" class="form-control" placeholder="Nama SM">
-                                                </div>
-                                                <div class="col-sm-8" style="margin-top: 5px;">
-                                                    <p class="text-center">John Wick</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="col-md-8 col-md-offset-2">
-                                            <div class="form-group">
-                                                <div class="col-sm-12">
-                                                    <p class="text-center">DISETUJUI</p>
-                                                </div>
-                                                <div class="col-sm-12">
-                                                    <div class="input-group">
-                                                        <span class="input-group-addon">KANCATEL</span>
-                                                        <input type="text" class="form-control" placeholder="Nama Kancatel">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div style="padding-top: 150px"></div>
-                                        <div class="col-md-8 col-md-offset-2">
-                                            <div class="form-group">
-                                                <div class="col-sm-12">
-                                                    <input type="text" class="form-control" placeholder="Nama yang menyetujui">
-                                                </div>
-                                                <div class="col-sm-12" style="margin-top: 5px;">
-                                                    <input type="text" class="form-control" placeholder="NIK yang menyetujui">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="col-md-6">
+                            <dl class="dl-horizontal">
+                                <dt>
+                                    <h4>NPL Detail</h4>
+                                </dt>
+                                <dd></dd>
+                                <dt>Nomor</dt>
+                                <dd>33 / PDE / VII / 2019</dd>
+                                <dt>Tanggal</dt>
+                                <dd>31 Juli 2019</dd>
+                                <dt>STO</dt>
+                                <dd>PDE</dd>
+                                <dd>Pondok Gede</dd>
+                                <dt>Lokasi</dt>
+                                <dd>Jl. Sentral Jaya No. 36</dd>
+                                <dt>ODP 8</dt>
+                                <dd>4</dd>
+                                <dt>ODP 16</dt>
+                                <dd>0</dd>
+                                <dt>Koordinat</dt>
+                                <dd>-6.2087168</dd>
+                                <dd>106.78272</dd>
+                            </dl>
+                        </div>
+                        <div class="col-md-6">
+                            <h1><label class="label label-success label-lg pull-right">Status Published</label></h1>
+                            <div class="clearfix"></div>
+                            <div class="col-md-8 col-md-offset-4">
+                                <table
+                                    class="table table-hover table-bordered table-striped table-responsive table-condensed"
+                                    style="margin-top:15px">
+                                    <thead class="th-center">
+                                        <tr>
+                                            <th rowspan="2">NPL Document</th>
+                                            <th colspan="2">Action</th>
+                                        </tr>
+                                        <tr>
+                                            <th>View</th>
+                                            <th>Download</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>xyz.jpg</td>
+                                            <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
+                                            <td class="text-center"><a href="#"><i class="fa fa-download"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>jkl.zip</td>
+                                            <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
+                                            <td class="text-center"><a href="#"><i class="fa fa-download"></i></a></td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <td colspan="2">Download all as zip</td>
+                                            <td class="text-center"><a href="#"><i class="fa fa-download"></i></a></td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-md-6">
+                            <table class="table table-hover table-striped table-responsive table-condensed">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Plan</th>
+                                        <th>Actual</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>Kabel 12 C</th>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Kabel 24 C</th>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th>ODP 8</th>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th>ODP 16</th>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Tiang 7M</th>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Aksesoris</th>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="col-md-6 text-right">
+                                <h2><label for="" class="label label-success">Installasi: Done</label></h2>
+                            </div>
+                            <div class="col-md-6 text-right">
+                                <h2><label for="" class="label label-success">Capex: Done</label></h2>
+                            </div>
+                            <div class="col-md-12 m-top-15">
+                                <table class="table table-hover table-striped table-responsive table-condensed">
+                                    <thead>
+                                        <tr>
+                                            <th></th>
+                                            <th>Material</th>
+                                            <th>Jasa</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th>Plan</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Capex</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Actual</th>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <table
+                                    class="table table-hover table-bordered table-striped table-responsive table-condensed"
+                                    style="margin-top:15px">
+                                    <thead class="th-center">
+                                        <tr>
+                                            <th rowspan="2">Project Document</th>
+                                            <th colspan="2">Action</th>
+                                        </tr>
+                                        <tr>
+                                            <th>View</th>
+                                            <th>Download</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>abc.jpg</td>
+                                            <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
+                                            <td class="text-center"><a href="#"><i class="fa fa-download"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>asplan-boq.zip</td>
+                                            <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
+                                            <td class="text-center"><a href="#"><i class="fa fa-download"></i></a></td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <td colspan="2">Download all as zip</td>
+                                            <td class="text-center"><a href="#"><i class="fa fa-download"></i></a></td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
                     </div>
                     <!-- /.box-body -->
-                    <div class="box-footer">
-                        <button type="#" class="btn btn-default">Cancel</button>
-                        <button type="reset" class="btn btn-default">Reset</button>
-                        <button type="submit" class="btn btn-info pull-right">Publish</button>
-                        <button type="submit" class="btn btn-warning pull-right" style="margin-right: 5px;">Save to Draft</button>
-                    </div>
-                    </form>
                 </div>
                 <!-- /.box -->
             </div>
         </div>
         <!-- /.row -->
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box">
+                    <div class="box-header">
+                        <h3 class="box-title">Logs</h3>
+                    </div>
+                </div>
+                <!-- The time line -->
+                <ul class="timeline">
+                    <!-- timeline time label -->
+                    <li class="time-label">
+                        <span class="bg-green">
+                            17 August 2019
+                        </span>
+                    </li>
+                    <!-- /.timeline-label -->
+                    <!-- timeline item -->
+                    <li>
+                        <i class="fa fa-check bg-green"></i>
+
+                        <div class="timeline-item">
+                            <span class="time"><i class="fa fa-clock-o"></i> 10.15</span>
+
+                            <h3 class="timeline-header"><a href="#">Hudas Fathkan (Project Deployment)</a> Finalize Project</h3>
+
+                            <div class="timeline-body">
+                                NPL 33 / PDE / VII / 2019 has been finalized by Hudas Fathkan on Sat August 17, 2019 at 10.15
+                            </div>
+                        </div>
+                    </li>
+                    <!-- END timeline item -->
+                    <!-- timeline time label -->
+                    <li class="time-label">
+                        <span class="bg-red">
+                            22 Juli 2019
+                        </span>
+                    </li>
+                    <!-- /.timeline-label -->
+                    <!-- timeline item -->
+                    <li>
+                        <i class="fa fa-object-group bg-blue"></i>
+
+                        <div class="timeline-item">
+                            <span class="time"><i class="fa fa-clock-o"></i> 17.39</span>
+
+                            <h3 class="timeline-header"><a href="#">Aryo Eko (SDI)</a> added NPL to group</h3>
+
+                            <div class="timeline-body">
+                                NPL 33 / PDE / VII / 2019 has been added to <strong>SFFT</strong> capex group by Aryo Eko on Mon July 22, 2019 at 17.39
+                            </div>
+                            <div class="timeline-footer">
+                                <a class="btn btn-primary btn-flat btn-xs">View Group</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- END timeline item -->
+                    <!-- timeline item -->
+                    <li>
+                        <i class="fa fa-object-group bg-red"></i>
+
+                        <div class="timeline-item">
+                            <span class="time"><i class="fa fa-clock-o"></i> 17.37</span>
+
+                            <h3 class="timeline-header"><a href="#">Aryo Eko (SDI)</a> removed NPL from group</h3>
+
+                            <div class="timeline-body">
+                                NPL 33 / PDE / VII / 2019 has been removed from <strong>SFFH</strong> capex group by Aryo Eko on Mon July 22, 2019 at 17.37
+                            </div>
+                            <div class="timeline-footer">
+                                <a class="btn btn-primary btn-flat btn-xs">View Group</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- END timeline item -->
+                    <!-- timeline item -->
+                    <li>
+                        <i class="fa fa-object-group bg-blue"></i>
+
+                        <div class="timeline-item">
+                            <span class="time"><i class="fa fa-clock-o"></i> 17.25</span>
+
+                            <h3 class="timeline-header"><a href="#">Aryo Eko (SDI)</a> added NPL to group</h3>
+
+                            <div class="timeline-body">
+                                NPL 33 / PDE / VII / 2019 has been added to <strong>SFFH</strong> capex group by Aryo Eko on Mon July 22, 2019 at 17.25
+                            </div>
+                            <div class="timeline-footer">
+                                <a class="btn btn-primary btn-flat btn-xs">View Group</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- END timeline item -->
+                    <!-- timeline item -->
+                    <li>
+                        <i class="fa fa-file-zip-o bg-aqua"></i>
+
+                        <div class="timeline-item">
+                            <span class="time"><i class="fa fa-clock-o"></i> 17.01</span>
+
+                            <h3 class="timeline-header"><a href="#">Aryo Eko (SDI)</a> added new survey document</h3>
+
+                            <div class="timeline-body">
+                            <table
+                                    class="table table-hover table-bordered table-striped table-responsive table-condensed"
+                                    style="margin-top:15px">
+                                    <thead class="th-center">
+                                        <tr>
+                                            <th rowspan="2">Survey Document</th>
+                                            <th colspan="2">Action</th>
+                                        </tr>
+                                        <tr>
+                                            <th>View</th>
+                                            <th>Download</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>file-survey.jpg</td>
+                                            <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
+                                            <td class="text-center"><a href="#"><i class="fa fa-download"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>evidence-survey.zip</td>
+                                            <td class="text-center"><a href="#"><i class="fa fa-eye text-gray"></i></a></td>
+                                            <td class="text-center"><a href="#"><i class="fa fa-download"></i></a></td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <td colspan="2">Download all as zip</td>
+                                            <td class="text-center"><a href="#"><i class="fa fa-download"></i></a></td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            <br />
+                            Remark: ...
+                            </div>
+                        </div>
+                    </li>
+                    <!-- END timeline item -->
+                    <!-- timeline item -->
+                    <li>
+                        <i class="fa fa-image bg-blue"></i>
+
+                        <div class="timeline-item">
+                            <span class="time"><i class="fa fa-clock-o"></i> 16.45</span>
+
+                            <h3 class="timeline-header"><a href="#">Aryo Eko (SDI)</a> added new design document</h3>
+
+                            <div class="timeline-body">
+                            <img src="http://placehold.it/150x100" alt="..." class="margin">
+                            <img src="http://placehold.it/150x100" alt="..." class="margin">
+                            <img src="http://placehold.it/150x100" alt="..." class="margin">
+                            <img src="http://placehold.it/150x100" alt="..." class="margin">
+                            <br />
+                            Remark: ...
+                            </div>
+                        </div>
+                    </li>
+                    <!-- END timeline item -->
+                    <!-- timeline time label -->
+                    <li class="time-label">
+                        <span class="bg-green">
+                            21 July 2019
+                        </span>
+                    </li>
+                    <!-- /.timeline-label -->
+                    <!-- timeline item -->
+                    <li>
+                        <i class="fa fa-check bg-green"></i>
+
+                        <div class="timeline-item">
+                            <span class="time"><i class="fa fa-clock-o"></i> 16.30</span>
+
+                            <h3 class="timeline-header"><a href="#">Ramadhani Bella (Optima)</a> Approve NPL</h3>
+
+                            <div class="timeline-body">
+                                NPL 33 / PDE / VII / 2019 has been approved by Ramadhani Bella on Sun July 21, 2019 at 16.30 with remark: NPL telah memenuhi syarat
+                            </div>
+                        </div>
+                    </li>
+                    <!-- END timeline item -->
+                    <!-- timeline time label -->
+                    <li class="time-label">
+                        <span class="bg-red">
+                            20 July 2019
+                        </span>
+                    </li>
+                    <!-- /.timeline-label -->
+                    <!-- timeline item -->
+                    <li>
+                        <i class="fa fa-check bg-green"></i>
+
+                        <div class="timeline-item">
+                            <span class="time"><i class="fa fa-clock-o"></i> 12:05</span>
+
+                            <h3 class="timeline-header"><a href="#">John Wick (User STO)</a> Publish NPL</h3>
+
+                            <div class="timeline-body">
+                                NPL 33 / PDE / VII / 2019 has been published by John Wick on Saturday July 20, 2019 at 12.05
+                            </div>
+                            <div class="timeline-footer">
+                                <a class="btn btn-primary btn-xs">Show Detail</a>
+                                <a class="btn btn-danger btn-xs">Delete</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- END timeline item -->
+                    <li>
+                        <i class="fa fa-clock-o bg-gray"></i>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.col -->
+        </div>
     </section>
     <!-- /.content -->
 </div>

@@ -6,11 +6,11 @@
     <section class="content-header">
         <h1>
             Capex
-            <small>Create Group</small>
+            <small>Edit Group</small>
         </h1>
         <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-image"></i> Capex</a></li>
-            <li class="active">Create Group</li>
+            <li class="active">Edit Group</li>
         </ol>
     </section>
 
@@ -22,7 +22,7 @@
                 <!-- general form elements -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <h3 class="box-title">Create Group</h3>
+                        <h3 class="box-title">Edit Group</h3>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
@@ -32,22 +32,22 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="inputWork">Name</label>
-                                        <input type="email" class="form-control" id="inputWork" value="" placeholder="">
+                                        <input type="email" class="form-control" id="inputWork" value="SFFT" placeholder="">
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputDes">Description</label>
-                                        <input type="email" class="form-control" id="exampleInputDes" value=""
+                                        <input type="email" class="form-control" id="exampleInputDes" value="My description"
                                             placeholder="">
                                     </div>
                                     <div class="form-group">
                                         <label for="inputNumb">Number</label>
-                                        <input type="email" class="form-control" id="inputNumb" value="" placeholder="">
+                                        <input type="email" class="form-control" id="inputNumb" value="72" placeholder="">
                                     </div>
                                     <div class="form-group">
                                         <label for="inputBase">Capex Type</label>
                                         <select class="form-control">
-                                            <option selected disabled>-- Choose ---</option>
-                                            <option>FTTH</option>
+                                            <option disabled>-- Choose ---</option>
+                                            <option selected>FTTH</option>
                                             <option>HEM</option>
                                             <option>OLO</option>
                                             <option>QE</option>
@@ -56,7 +56,7 @@
                                     <div class="form-group">
                                         <label for="inputDate">Date</label>
                                         <div class="input-group date">
-                                            <input type="text" class="form-control pull-right" id="inputDate" value=""
+                                            <input type="text" class="form-control pull-right" id="inputDate" value="20-07-2019"
                                                 placeholder="">
                                             <div class="input-group-addon">
                                                 <i class="fa fa-calendar"></i>
@@ -68,12 +68,12 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="inputPartner">Partner</label>
-                                        <input type="text" class="form-control" id="inputPartner" value=""
+                                        <input type="text" class="form-control" id="inputPartner" value="My Partner"
                                             placeholder="">
                                     </div>
                                     <div class="form-group">
                                         <label for="inputBudget">Budget</label>
-                                        <input type="text" class="form-control" id="inputBudget" value=""
+                                        <input type="text" class="form-control" id="inputBudget" value="30.000.0000"
                                             placeholder="">
                                     </div>
                                     <div class="form-group">
@@ -82,8 +82,8 @@
                                             <span class="input-group-addon">
                                                 <i class="fa fa-calendar"></i>
                                             </span>
-                                            <input style="width:50%" class="form-control " placeholder="" type="text" />
-                                            <input style="width:50%" class="form-control " placeholder="" type="text" />
+                                            <input style="width:50%" class="form-control " placeholder="" value="20-07-2019" type="text" />
+                                            <input style="width:50%" class="form-control " placeholder="" value="20-09-2019" type="text" />
                                             <span class="input-group-addon">
                                                 <i class="fa fa-calendar"></i>
                                             </span>

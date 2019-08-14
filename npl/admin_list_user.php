@@ -67,7 +67,7 @@
                     <td><span class="label label-success">Admin</span></td>
                     <td><span class="label label-success">Active</span></td>
                     <td class="text-center"><a href="#"><i class="fa fa-edit"></i></a></td>
-                    <td class="text-center"><a href="#"><i class="fa fa-remove text-red"></i></a></td>
+                    <td class="text-center"><a href="#" class="user-remove"><i class="fa fa-remove text-red"></i></a></td>
                   </tr>
                   <tr>
                     <td>2</td>
@@ -78,7 +78,7 @@
                     <td><span class="label label-primary">SDI</span></td>
                     <td><span class="label label-success">Active</span></td>
                     <td class="text-center"><a href="#"><i class="fa fa-edit"></i></a></td>
-                    <td class="text-center"><a href="#"><i class="fa fa-remove text-red"></i></a></td>
+                    <td class="text-center"><a href="#" class="user-remove"><i class="fa fa-remove text-red"></i></a></td>
                   </tr>
                   <tr>
                     <td>3</td>
@@ -89,7 +89,7 @@
                     <td><span class="label label-primary">Optima</span></td>
                     <td><span class="label label-success">Active</span></td>
                     <td class="text-center"><a href="#"><i class="fa fa-edit"></i></a></td>
-                    <td class="text-center"><a href="#"><i class="fa fa-remove text-red"></i></a></td>
+                    <td class="text-center"><a href="#" class="user-remove"><i class="fa fa-remove text-red"></i></a></td>
                   </tr>
                   <tr>
                     <td>4</td>
@@ -100,7 +100,7 @@
                     <td><span class="label label-primary">Project Deployment</span></td>
                     <td><span class="label label-success">Active</span></td>
                     <td class="text-center"><a href="#"><i class="fa fa-edit"></i></a></td>
-                    <td class="text-center"><a href="#"><i class="fa fa-remove text-red"></i></a></td>
+                    <td class="text-center"><a href="#" class="user-remove"><i class="fa fa-remove text-red"></i></a></td>
                   </tr>
                   <tr>
                     <td>5</td>
@@ -108,10 +108,10 @@
                     <td>John Wick</td>
                     <td>john@example.com</td>
                     <td>081692939390</td>
-                    <td><span class="label label-primary">User</span></td>
+                    <td><span class="label label-primary">User STO</span></td>
                     <td><span class="label label-success">Active</span></td>
                     <td class="text-center"><a href="#"><i class="fa fa-edit"></i></a></td>
-                    <td class="text-center"><a href="#"><i class="fa fa-remove text-red"></i></a></td>
+                    <td class="text-center"><a href="#" class="user-remove"><i class="fa fa-remove text-red"></i></a></td>
                   </tr>
                   <tr>
                     <td>6</td>
@@ -122,7 +122,7 @@
                     <td><span class="label label-primary">Project Deployment</span></td>
                     <td><span class="label label-danger">Disactive</span></td>
                     <td class="text-center"><a href="#"><i class="fa fa-edit"></i></a></td>
-                    <td class="text-center"><a href="#"><i class="fa fa-remove text-red"></i></a></td>
+                    <td class="text-center"><a href="#" class="user-remove"><i class="fa fa-remove text-red"></i></a></td>
                   </tr>
                 </tbody>
               </table>
@@ -155,5 +155,6 @@ $navbar = file_get_contents($componentsPath . 'navbars/admin.php');
 $footer = file_get_contents($componentsPath . 'footer.php');
 $sidebar = file_get_contents($componentsPath . 'sidebars/admin.php');
 $content = ob_get_clean();
+$script = file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'js/' . basename(substr(__FILE__, 0, strrpos(__FILE__, '.'))) . '.js');
 
 include('components/layout.php');

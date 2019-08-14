@@ -62,7 +62,7 @@
                                 <div class="form-group">
                                     <label class="col-sm-6 control-label">Total Current Project</label>
                                     <div class="col-sm-6">
-                                        <input type="text" class="form-control" value="1" readonly>
+                                        <input type="text" class="form-control" value="2" readonly>
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -74,7 +74,7 @@
                                 <div class="form-group">
                                     <label class="col-sm-6 control-label">Capex Type</label>
                                     <div class="col-sm-6">
-                                        <input type="text" class="form-control" value="" readonly>
+                                        <input type="text" class="form-control" value="FTTH" readonly>
                                     </div>
                                 </div>
                             </form>

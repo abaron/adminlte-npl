@@ -107,6 +107,32 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td colspan="2">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="" class="col-sm-4 control-label">Latitude</label>
+                                                <div class="col-sm-8">
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control" value="-64.00237" readonly>
+                                                        <span class="input-group-addon"><sup>o</sup></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="" class="col-sm-4 control-label">Longitude</label>
+                                                <div class="col-sm-8">
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control" value="-0.628284" readonly>
+                                                        <span class="input-group-addon"><sup>o</sup></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
                                     <td class="text-center"><b>USULAN</b></td>
                                     <td class="text-center"><b>KEBUTUHAN MATERIAL</b></td>
                                 </tr>
@@ -114,15 +140,9 @@
                                     <td>
                                         <span>PENARIKAN KABEL FO:</span>
                                         <div class="form-group">
-                                            <label for="" class="col-sm-4 control-label">Kabel Duct FO</label>
+                                            <label for="" class="col-sm-4 control-label">Kabel Fiber Optik</label>
                                             <div class="col-sm-4">
-                                                <input type="text" class="form-control" id="" placeholder="Kabel Duct FO">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="" class="col-sm-4 control-label">Kabel Udara FO 12c</label>
-                                            <div class="col-sm-4">
-                                                <input type="text" class="form-control" id="" placeholder="Kabel Udara FO 12c">
+                                                <input type="text" class="form-control" id="" placeholder="Kabel Fiber Optik">
                                             </div>
                                         </div>
                                         <div class="form-group">

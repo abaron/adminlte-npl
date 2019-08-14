@@ -9,7 +9,7 @@
         </div>
         <div class="pull-left info">
           <p>John Wick</p>
-          <a href="#"><i class="fa fa-user text-success"></i> User</a>
+          <a href="#"><i class="fa fa-user text-success"></i> User STO</a>
         </div>
       </div>
       <!-- search form -->
