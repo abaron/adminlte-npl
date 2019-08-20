@@ -80,7 +80,7 @@
                                     <td>Rp13.056.000</td>
                                     <td>Rp46.566.400</td>
                                     <td><span class="label label-success">Approved</span></td>
-                                    <td><span class="label label-primary">Step 1</span></td>
+                                    <td><span class="label label-primary">Preparing</span></td>
                                     <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
                                     <td class="text-center"><a href="#" class="update-status"><i
                                                 class="fa fa-edit"></i></a></td>
@@ -101,7 +101,7 @@
                                     <td>Rp26.112.000</td>
                                     <td>Rp93.132.800</td>
                                     <td><span class="label label-success">Approved</span></td>
-                                    <td><span class="label label-primary">Step 2</span></td>
+                                    <td><span class="label label-primary">Permit Processing</span></td>
                                     <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
                                     <td class="text-center"><a href="#" class="update-status"><i
                                                 class="fa fa-edit"></i></a></td>
@@ -122,7 +122,7 @@
                                     <td>Rp39.168.000</td>
                                     <td>Rp139.699.200</td>
                                     <td><span class="label label-success">Approved</span></td>
-                                    <td><span class="label label-primary">Step 5</span></td>
+                                    <td><span class="label label-primary">Finishing</span></td>
                                     <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
                                     <td class="text-center"><a href="#" class="update-status"><i
                                                 class="fa fa-edit"></i></a></td>
@@ -142,8 +142,8 @@
                                     <td>Rp50.265.600</td>
                                     <td>Rp19.584.000</td>
                                     <td>Rp69.849.600</td>
-                                    <td><span class="label label-warning">Hold</span></td>
-                                    <td><span class="label label-primary">Step 6</span></td>
+                                    <td><span class="label label-warning">In Progress</span></td>
+                                    <td><span class="label label-primary">Testcom</span></td>
                                     <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
                                     <td class="text-center"><a href="#" class="update-status"><i
                                                 class="fa fa-edit"></i></a></td>
@@ -184,7 +184,7 @@
                                     <td>Rp32.640.000</td>
                                     <td>Rp116.416.000</td>
                                     <td><span class="label label-success">Approved</span></td>
-                                    <td><span class="label label-primary">Finished</span></td>
+                                    <td><span class="label label-success">Completed</span></td>
                                     <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
                                     <td class="text-center"><a href="#" class="update-status"><i class="fa fa-edit text-gray"></i></a></td>
                                     <td class="text-center"><a href="#" class="project-upload"><i class="fa fa-upload text-gray"></i></a></td>

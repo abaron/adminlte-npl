@@ -5,12 +5,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        List User
+        Manage User
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
         <li><a href="#">User Management</a></li>
-        <li class="active">List User</li>
+        <li class="active">Manage User</li>
       </ol>
     </section>
 
@@ -20,7 +20,7 @@
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">List User</h3>
+              <h3 class="box-title">Manage User</h3>
 
               <div class="box-tools">
                 <div class="input-group input-group-sm" style="width: 150px;">
@@ -44,7 +44,7 @@
                 <thead>
                   <tr>
                     <th rowspan="2">ID</th>
-                    <th rowspan="2">NIP</th>
+                    <th rowspan="2">NIK</th>
                     <th rowspan="2">Fullname</th>
                     <th rowspan="2">Email</th>
                     <th rowspan="2">Phone</th>

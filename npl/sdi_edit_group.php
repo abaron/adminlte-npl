@@ -32,7 +32,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="inputWork">Name</label>
-                                        <input type="email" class="form-control" id="inputWork" value="SFFT" placeholder="">
+                                        <input type="email" class="form-control" id="inputWork" value="STTF" placeholder="">
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputDes">Description</label>

@@ -18,7 +18,7 @@ $(document).on("click", ".npl-approve", function(e){
                 //close
             },
             formSubmit: {
-                text: 'Approve',
+                text: 'Continue',
                 btnClass: 'btn-green'
             }
         }

@@ -20,7 +20,7 @@
             <div class="col-xs-12">
                 <div class="box">
                     <div class="box-header">
-                        <h3 class="box-title">Detail Capex <label class="label label-success">SFFT</label></h3>
+                        <h3 class="box-title">Detail Capex <label class="label label-success">STTF</label></h3>
 
                         <div class="box-tools">
                             <button type="submit" class="btn btn-primary" style="margin-left: 10px;"><i class="fa fa-download"></i> Export</button>
@@ -40,7 +40,7 @@
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">Group Name</label>
                                     <div class="col-sm-6">
-                                        <input type="text" class="form-control" value="SFFT" readonly>
+                                        <input type="text" class="form-control" value="STTF" readonly>
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -60,7 +60,7 @@
                         <div class="col-md-4 col-md-offset-2">
                             <form class="form-horizontal">
                                 <div class="form-group">
-                                    <label class="col-sm-6 control-label">Total Current Project</label>
+                                    <label class="col-sm-6 control-label">Current Proj. Total</label>
                                     <div class="col-sm-6">
                                         <input type="text" class="form-control" value="2" readonly>
                                     </div>
@@ -91,12 +91,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>doc-capex-sfft01.jpg</td>
-                                        <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
-                                        <td class="text-center"><a href="#"><i class="fa fa-download"></i></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td>doc-capex-sfft02.jpg</td>
+                                        <td>xxxxxx x.pdf</td>
                                         <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
                                         <td class="text-center"><a href="#"><i class="fa fa-download"></i></a></td>
                                     </tr>
@@ -112,6 +107,7 @@
                         <div class="clearfix"></div>
 
                         <div class="col-md-12">
+                            <span>Total list of project : 3</span>
                             <table class="table table-hover table-bordered table-striped table-responsive table-condensed">
                                 <thead class="th-center">
                                     <tr>
@@ -122,29 +118,39 @@
                                         <th>Port</th>
                                         <th>As Plan BoQ</th>
                                         <th>DRM BoQ</th>
-                                        <th>Percentage</th>
+                                        <th>%</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>1</td>
                                         <td>33 / PDE / VII / 2019</td>
-                                        <td>Jl. Pondok Raya No. 7</td>
-                                        <td>Pondok Gede</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>15</td>
-                                        <td>45%</td>
+                                        <td>Jl. Sentral Jaya No. 36</td>
+                                        <td>PDE</td>
+                                        <td>32</td>
+                                        <td>Rp54.400.000</td>
+                                        <td>Rp46.566.400</td>
+                                        <td>77%</td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
-                                        <td>29 / PWR / X / 2019</td>
-                                        <td>Jl. Lingkar Tengah No. 4</td>
-                                        <td>Perwira</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>11</td>
-                                        <td>40%</td>
+                                        <td>31 / PDE / VII / 2019</td>
+                                        <td>Jl. Jatiwaringin No. 55</td>
+                                        <td>PDE</td>
+                                        <td>64</td>
+                                        <td>Rp108.800.000</td>
+                                        <td>Rp93.132.800</td>
+                                        <td>89%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>23 / KLB / III / 2019</td>
+                                        <td>Jl. Boulevard Raya No. 132</td>
+                                        <td>KLB</td>
+                                        <td>96</td>
+                                        <td>Rp163.200.000</td>
+                                        <td>Rp139.699.200</td>
+                                        <td>85%</td>
                                     </tr>
                                 </tbody>
                             </table>

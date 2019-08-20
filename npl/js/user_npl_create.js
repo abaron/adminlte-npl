@@ -27,7 +27,7 @@ $(document).on("click", ".publish-npl", function(e){
             </div>\
             </div>\
         </form>' +
-        '<p>The NPL will be published and sent to Optima for review before further construction and available for other to view</p>' +
+        '<p>The NPL will be published and sent to Optima for review before further construction and available publicly for others to view</p>' +
         '<p>Are you sure?</p>',
         buttons: {
             cancel: function () {

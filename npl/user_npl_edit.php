@@ -43,9 +43,9 @@
                                                 <select class="form-control" id="STO-input">
                                                     <option disabled>-- Pilih --</option>
                                                     <option selected>PDE</option>
-                                                    <option>HRI</option>
-                                                    <option>PWR</option>
-                                                    <option>KLA</option>
+                                                    <option>KLB</option>
+                                                    <option>KRA</option>
+                                                    <option>PKY</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -113,7 +113,7 @@
                                                 <label for="" class="col-sm-4 control-label">Latitude</label>
                                                 <div class="col-sm-8">
                                                     <div class="input-group">
-                                                        <input type="text" class="form-control" value="-64.00237" readonly>
+                                                        <input type="text" class="form-control" value="-6.2087168" readonly>
                                                         <span class="input-group-addon"><sup>o</sup></span>
                                                     </div>
                                                 </div>
@@ -124,7 +124,7 @@
                                                 <label for="" class="col-sm-4 control-label">Longitude</label>
                                                 <div class="col-sm-8">
                                                     <div class="input-group">
-                                                        <input type="text" class="form-control" value="-0.628284" readonly>
+                                                        <input type="text" class="form-control" value="106.78272" readonly>
                                                         <span class="input-group-addon"><sup>o</sup></span>
                                                     </div>
                                                 </div>
@@ -149,9 +149,9 @@
                                             <label for="" class="col-sm-4 control-label">Pembangunan PT<br /><sup>(Provisioning Type)</sup></label>
                                             <div class="col-sm-4">
                                                 <select class="form-control" id="">
-                                                    <option disabled selected>-- Pilih --</option>
+                                                    <option disabled>-- Pilih --</option>
                                                     <option>PT3</option>
-                                                    <option>PT2 Plus</option>
+                                                    <option selected>PT2 Plus</option>
                                                     <option>PT2</option>
                                                 </select>
                                             </div>
@@ -171,7 +171,7 @@
                                             <label for="" class="col-sm-4 control-label">Spliter 1/4</label>
                                             <div class="col-sm-8">
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control" placeholder="Spliter 1/4">
+                                                    <input type="text" class="form-control" value="4">
                                                     <span class="input-group-addon">Buah</span>
                                                 </div>
                                             </div>
@@ -180,7 +180,7 @@
                                             <label for="" class="col-sm-4 control-label">Spliter 1/8</label>
                                             <div class="col-sm-8">
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control" placeholder="Spliter 1/8">
+                                                    <input type="text" class="form-control" value="0">
                                                     <span class="input-group-addon">Buah</span>
                                                 </div>
                                             </div>
@@ -189,7 +189,7 @@
                                             <label for="" class="col-sm-4 control-label">ODP</label>
                                             <div class="col-sm-8">
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control" placeholder="ODP">
+                                                    <input type="text" class="form-control" value="4">
                                                     <span class="input-group-addon">Buah</span>
                                                 </div>
                                             </div>
@@ -198,7 +198,7 @@
                                             <label for="" class="col-sm-4 control-label">Crosure</label>
                                             <div class="col-sm-8">
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control" placeholder="Crosure">
+                                                    <input type="text" class="form-control" value="2">
                                                     <span class="input-group-addon">Buah</span>
                                                 </div>
                                             </div>
@@ -207,7 +207,7 @@
                                             <label for="" class="col-sm-4 control-label">Tiang</label>
                                             <div class="col-sm-8">
                                                 <div class="input-group">
-                                                    <input type="text" class="form-control" placeholder="Tiang">
+                                                    <input type="text" class="form-control" value="4">
                                                     <span class="input-group-addon">Batang</span>
                                                 </div>
                                             </div>
@@ -224,7 +224,7 @@
                                                 <div class="col-sm-8">
                                                     <div class="input-group">
                                                         <span class="input-group-addon">PT.</span>
-                                                        <input type="text" class="form-control" placeholder="Nama Perusahaan">
+                                                        <input type="text" class="form-control" value="UPAYA TEKNIK">
                                                     </div>
                                                 </div>
                                             </div>
@@ -233,7 +233,7 @@
                                         <div class="col-md-8 col-md-offset-2">
                                             <div class="form-group">
                                                 <div class="col-sm-8">
-                                                    <input type="text" class="form-control" placeholder="Nama SM">
+                                                    <input type="text" class="form-control" value="PONDOK GEDE">
                                                 </div>
                                                 <div class="col-sm-8" style="margin-top: 5px;">
                                                     <p class="text-center">John Wick</p>
@@ -250,7 +250,7 @@
                                                 <div class="col-sm-12">
                                                     <div class="input-group">
                                                         <span class="input-group-addon">KANCATEL</span>
-                                                        <input type="text" class="form-control" placeholder="Nama Kancatel">
+                                                        <input type="text" class="form-control" value="PONDOK GEDE">
                                                     </div>
                                                 </div>
                                             </div>
@@ -259,10 +259,10 @@
                                         <div class="col-md-8 col-md-offset-2">
                                             <div class="form-group">
                                                 <div class="col-sm-12">
-                                                    <input type="text" class="form-control" placeholder="Nama yang menyetujui">
+                                                    <input type="text" class="form-control" value="DEDI SETIAWAN">
                                                 </div>
                                                 <div class="col-sm-12" style="margin-top: 5px;">
-                                                    <input type="text" class="form-control" placeholder="NIK yang menyetujui">
+                                                    <input type="text" class="form-control" value="123456789">
                                                 </div>
                                             </div>
                                         </div>

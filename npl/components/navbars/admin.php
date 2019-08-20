@@ -39,8 +39,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> List User</a></li>
-            <li><a href="index2.html"><i class="fa fa-user-plus"></i> Add User</a></li>
+            <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Manage User</a></li>
+            <li><a href="index2.html"><i class="fa fa-user-plus"></i> Create User</a></li>
           </ul>
         </li>
         <li class="active treeview">

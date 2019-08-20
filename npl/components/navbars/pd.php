@@ -38,8 +38,7 @@
             <span class="pull-right-container">
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Project</a></li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Finalize Project</a></li>
+            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Manage Project</a></li>
           </ul>
         </li>
         <li class="active treeview">

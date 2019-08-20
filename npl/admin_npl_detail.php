@@ -101,33 +101,33 @@
                                 <tbody>
                                     <tr>
                                         <th>Kabel 12 C</th>
-                                        <td></td>
-                                        <td></td>
+                                        <td>4</td>
+                                        <td>5</td>
                                     </tr>
                                     <tr>
                                         <th>Kabel 24 C</th>
-                                        <td></td>
-                                        <td></td>
+                                        <td>2</td>
+                                        <td>2</td>
                                     </tr>
                                     <tr>
                                         <th>ODP 8</th>
-                                        <td></td>
-                                        <td></td>
+                                        <td>8</td>
+                                        <td>7</td>
                                     </tr>
                                     <tr>
                                         <th>ODP 16</th>
-                                        <td></td>
-                                        <td></td>
+                                        <td>0</td>
+                                        <td>1</td>
                                     </tr>
                                     <tr>
                                         <th>Tiang 7M</th>
-                                        <td></td>
-                                        <td></td>
+                                        <td>4</td>
+                                        <td>4</td>
                                     </tr>
                                     <tr>
                                         <th>Aksesoris</th>
-                                        <td></td>
-                                        <td></td>
+                                        <td>-</td>
+                                        <td>-</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -152,20 +152,21 @@
                                     <tbody>
                                         <tr>
                                             <th>Plan</th>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <td>Rp50.000.000</td>
+                                            <td>Rp20.500.000</td>
+                                            <td>Rp70.500.000</td>
                                         </tr>
                                         <tr>
                                             <th>Capex</th>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <td>Rp55.000.0000</td>
+                                            <td>Rp20.000.000</td>
+                                            <td>Rp75.000.000</td>
                                         </tr>
                                         <tr>
                                             <th>Actual</th>
-                                            <td></td>
-                                            <td></td>
+                                            <td>Rp54.000.000</td>
+                                            <td>Rp20.000.000</td>
+                                            <td>Rp74.000.000</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -260,7 +261,7 @@
                             <h3 class="timeline-header"><a href="#">Aryo Eko (SDI)</a> added NPL to group</h3>
 
                             <div class="timeline-body">
-                                NPL 33 / PDE / VII / 2019 has been added to <strong>SFFT</strong> capex group by Aryo Eko on Mon July 22, 2019 at 17.39
+                                NPL 33 / PDE / VII / 2019 has been added to <strong>STTF</strong> capex group by Aryo Eko on Mon July 22, 2019 at 17.39
                             </div>
                             <div class="timeline-footer">
                                 <a class="btn btn-primary btn-flat btn-xs">View Group</a>

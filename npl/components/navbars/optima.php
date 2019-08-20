@@ -34,7 +34,7 @@
         <li class="active treeview">
           <a href="#">
             <i class="fa fa-files-o"></i>
-            <span>NPL</span>
+            <span>NPL Approval</span>
             <span class="pull-right-container">
               <span class="label label-primary pull-right">15</span>
             </span>
@@ -43,7 +43,7 @@
             <li>
               <a href="pages/layout/top-nav.html">
                 <i class="fa fa-circle-o"></i>
-                <span>List NPL</span>
+                <span>NPL Submission List</span>
                 <span class="pull-right-container">
                   <span class="label label-primary pull-right">15</span>
                 </span>

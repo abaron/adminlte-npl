@@ -43,9 +43,9 @@
                                                 <select class="form-control" id="STO-input">
                                                     <option disabled selected>-- Pilih --</option>
                                                     <option>PDE</option>
-                                                    <option>HRI</option>
-                                                    <option>PWR</option>
-                                                    <option>KLA</option>
+                                                    <option>KLB</option>
+                                                    <option>KRA</option>
+                                                    <option>PKY</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -113,7 +113,7 @@
                                                 <label for="" class="col-sm-4 control-label">Latitude</label>
                                                 <div class="col-sm-8">
                                                     <div class="input-group">
-                                                        <input type="text" class="form-control" value="-64.00237" readonly>
+                                                        <input type="text" class="form-control" value="-6.2087168" readonly>
                                                         <span class="input-group-addon"><sup>o</sup></span>
                                                     </div>
                                                 </div>
@@ -124,7 +124,7 @@
                                                 <label for="" class="col-sm-4 control-label">Longitude</label>
                                                 <div class="col-sm-8">
                                                     <div class="input-group">
-                                                        <input type="text" class="form-control" value="-0.628284" readonly>
+                                                        <input type="text" class="form-control" value="106.78272" readonly>
                                                         <span class="input-group-addon"><sup>o</sup></span>
                                                     </div>
                                                 </div>

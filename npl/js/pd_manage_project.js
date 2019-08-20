@@ -10,10 +10,14 @@ $(document).on("click", ".update-status", function(e){
             '<label class="label label-primary pull-right">33 / PDE / VII / 2019</label>' +
             '<select class="name form-control" required>' +
             '<option disabled>-- Pilih --</option>' +
-            '<option value="1" disabled>Step 1</option>' +
-            '<option value="2" disabled selected>Step 2</option>' +
-            '<option value="3">Step 3</option>' +
-            '<option value="0">Reject</option>' +
+            '<option value="1" disabled>Preparing</option>' +
+            '<option value="2" disabled selected>Permit Processing</option>' +
+            '<option value="3">Material Delivery</option>' +
+            '<option value="4">Installation</option>' +
+            '<option value="5">Finishing</option>' +
+            '<option value="6">Testcom</option>' +
+            '<option value="7">Completed</option>' +
+            '<option value="0">Drop/Cancel Project</option>' +
             '</select>' +
         '</div>' +
         '<div class="form-group">' +

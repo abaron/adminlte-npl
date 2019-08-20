@@ -5,11 +5,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Capex
+            Project
             <small>Add & Remove Project</small>
         </h1>
         <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Capex</a></li>
+            <li><a href="#"><i class="fa fa-dashboard"></i> Project</a></li>
             <li class="active">Add & Remove Project</li>
         </ol>
     </section>
@@ -41,7 +41,7 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">Group Name</label>
                                 <div class="col-sm-6">
-                                    <input type="text" class="form-control" value="SFFT" readonly>
+                                    <input type="text" class="form-control" value="STTF" readonly>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -63,9 +63,9 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Rp25.500.000</td>
-                                        <td>Rp30.000.000</td>
-                                        <td>85%</td>
+                                        <td>Rp122.400.000</td>
+                                        <td>Rp200.000.000</td>
+                                        <td>56%</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -77,6 +77,9 @@
                             <table class="table table-hover table-bordered table-striped table-responsive table-condensed">
                                 <thead class="th-center">
                                     <tr>
+                                        <th colspan="6">Group Member</th>
+                                    </tr>
+                                    <tr>
                                         <th>No.</th>
                                         <th>No. NPL</th>
                                         <th>Lokasi</th>
@@ -85,51 +88,47 @@
                                         <th>Status</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody class="text-sm">
                                     <tr>
                                         <td>1</td>
-                                        <td>41 / PDE / VIII / 2019</td>
-                                        <td>Jl. Pondok Raya</td>
-                                        <td>Pondok Gede</td>
-                                        <td>15</td>
-                                        <td><label class="label label-success">Step 1</label></td>
+                                        <td>31 / PDE / VII / 2019</td>
+                                        <td>Jl. Jatiwaringin No. 55</td>
+                                        <td>PDE</td>
+                                        <td>Rp108.800.000</td>
+                                        <td><label class="label label-success">Preparing</label></td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
-                                        <td>40 / PDE / VIII / 2019</td>
-                                        <td>Jl. Pondok Raya</td>
-                                        <td>Pondok Gede</td>
-                                        <td>19</td>
-                                        <td><label class="label label-success">Step 2</label></td>
+                                        <td>23 / KLB / III / 2019</td>
+                                        <td>Jl. Boulevard Raya No. 132</td>
+                                        <td>KLB</td>
+                                        <td>Rp163.200.000</td>
+                                        <td><label class="label label-success">Permit Processing</label></td>
                                     </tr>
                                     <tr>
                                         <td>3</td>
-                                        <td>10 / PWR / VIII / 2019</td>
-                                        <td>Jl. Perwira No. 17</td>
-                                        <td>Perwira</td>
-                                        <td>10</td>
-                                        <td><label class="label label-success">Step 3</label></td>
+                                        <td>18 / KLB / II / 2019</td>
+                                        <td>Jl. Binangun 5 No.7</td>
+                                        <td>KLB</td>
+                                        <td>Rp81.600.000</td>
+                                        <td><label class="label label-success">Material Delivery</label></td>
                                     </tr>
                                     <tr>
                                         <td>4</td>
-                                        <td>8 / PWR / VII / 2019</td>
-                                        <td>Jl. Perwira No. 15</td>
-                                        <td>Perwira</td>
-                                        <td>9</td>
-                                        <td><label class="label label-success">Step 3</label></td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>7 / PWR / VI / 2019</td>
-                                        <td>Jl. Perwira No. 12</td>
-                                        <td>Perwira</td>
-                                        <td>9</td>
-                                        <td><label class="label label-success">Step 3</label></td>
+                                        <td>59 / PKY / XI / 2018</td>
+                                        <td>Jl. Wibawa Mukti 2 No. 15</td>
+                                        <td>PKY</td>
+                                        <td>Rp136.000.000</td>
+                                        <td><label class="label label-success">Installation</label></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                         <div class="col-md-2 text-center">
+                            <br />
+                            <br />
+                            <br />
+                            <br />
                             <button class="btn btn-default">&nbsp;<i class="fa fa-angle-double-right"></i>&nbsp;</button>
                             <br />
                             <br />
@@ -139,6 +138,9 @@
                             <table class="table table-hover table-bordered table-striped table-responsive table-condensed">
                                 <thead class="th-center">
                                     <tr>
+                                        <th colspan="6">All Project</th>
+                                    </tr>
+                                    <tr>
                                         <th>No.</th>
                                         <th>No. NPL</th>
                                         <th>Lokasi</th>
@@ -147,22 +149,22 @@
                                         <th>Status</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody class="text-sm">
                                     <tr>
                                         <td>1</td>
                                         <td>33 / PDE / VII / 2019</td>
-                                        <td>Jl. Pondok Raya No. 7</td>
-                                        <td>Pondok Gede</td>
-                                        <td>15</td>
-                                        <td><label class="label label-success">Step 5</label></td>
+                                        <td>Jl. Sentral Jaya No. 36</td>
+                                        <td>PDE</td>
+                                        <td>Rp54.400.000</td>
+                                        <td><label class="label label-success">Finishing</label></td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
-                                        <td>29 / PWR / X / 2019</td>
-                                        <td>Jl. Lingkar Tengah No. 4</td>
-                                        <td>Perwira</td>
-                                        <td>11</td>
-                                        <td><label class="label label-success">Step 5</label></td>
+                                        <td>64 / KRA / XII / 2018</td>
+                                        <td>Jl. Perjuangan No. 85</td>
+                                        <td>KRA</td>
+                                        <td>Rp68.000.000</td>
+                                        <td><label class="label label-success">Finishing</label></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -246,10 +248,10 @@
 
 $componentsPath = dirname(__FILE__) . '/components/';
 
-$header = file_get_contents($componentsPath . 'headers/sdi.php');
-$navbar = file_get_contents($componentsPath . 'navbars/sdi.php');
+$header = file_get_contents($componentsPath . 'headers/pd.php');
+$navbar = file_get_contents($componentsPath . 'navbars/pd.php');
 $footer = file_get_contents($componentsPath . 'footer.php');
-$sidebar = file_get_contents($componentsPath . 'sidebars/sdi.php');
+$sidebar = file_get_contents($componentsPath . 'sidebars/pd.php');
 $content = ob_get_clean();
 $script = file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'js/' . basename(substr(__FILE__, 0, strrpos(__FILE__, '.'))) . '.js');
 

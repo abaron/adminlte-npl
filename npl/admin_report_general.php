@@ -185,9 +185,9 @@
                                         <th class="text-white bg-blue">Completed</th>
                                     </tr>
                             </thead>
-                            <tbody>
+                            <tbody class="text-right">
                                 <tr>
-                                    <td>BBL</td>
+                                    <td class="text-left">BBL</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -200,7 +200,7 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>BEK</td>
+                                    <td class="text-left">BEK</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -213,7 +213,7 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>BGG</td>
+                                    <td class="text-left">BGG</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -226,7 +226,7 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>CBG</td>
+                                    <td class="text-left">CBG</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -239,7 +239,7 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>CIB</td>
+                                    <td class="text-left">CIB</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -252,7 +252,7 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>CIK</td>
+                                    <td class="text-left">CIK</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -265,7 +265,7 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>DNI</td>
+                                    <td class="text-left">DNI</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -278,7 +278,7 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>EJI</td>
+                                    <td class="text-left">EJI</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -291,7 +291,7 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>JBB</td>
+                                    <td class="text-left">JBB</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -304,7 +304,7 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>KLB</td>
+                                    <td class="text-left">KLB</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -317,7 +317,7 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>KRA</td>
+                                    <td class="text-left">KRA</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -330,7 +330,7 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>LMA</td>
+                                    <td class="text-left">LMA</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -343,7 +343,7 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>MGB</td>
+                                    <td class="text-left">MGB</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -356,7 +356,7 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>PBY</td>
+                                    <td class="text-left">PBY</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -369,7 +369,7 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>PDE</td>
+                                    <td class="text-left">PDE</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -382,7 +382,7 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>PKY</td>
+                                    <td class="text-left">PKY</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -395,7 +395,7 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>SMH</td>
+                                    <td class="text-left">SMH</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -408,7 +408,7 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>STN</td>
+                                    <td class="text-left">STN</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -421,7 +421,7 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>SUE</td>
+                                    <td class="text-left">SUE</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -434,7 +434,7 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>TAR</td>
+                                    <td class="text-left">TAR</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -447,7 +447,7 @@
                                     <td></td>
                                 </tr>
                                 <tr>
-                                    <td>TBL</td>
+                                    <td class="text-left">TBL</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -461,8 +461,8 @@
                                 </tr>
                             </tbody>
                             <tfoot>
-                                <tr class="text-white bg-red">
-                                    <td>TOTAL</td>
+                                <tr class="text-right text-white bg-red">
+                                    <td class="text-left">TOTAL</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -505,5 +505,6 @@ $navbar = file_get_contents($componentsPath . 'navbars/admin.php');
 $footer = file_get_contents($componentsPath . 'footer.php');
 $sidebar = file_get_contents($componentsPath . 'sidebars/admin.php');
 $content = ob_get_clean();
+$script = file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'js/' . basename(substr(__FILE__, 0, strrpos(__FILE__, '.'))) . '.js');
 
 include('components/layout.php');

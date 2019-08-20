@@ -29,7 +29,7 @@
                     <form class="form-horizontal">
                             <div class="box-body">
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label">NIP</label>
+                                    <label class="col-sm-2 control-label">NIK</label>
                                     <div class="col-sm-4">
                                         <input type="text" class="form-control" value="1234567890">
                                     </div>
@@ -59,6 +59,17 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
+                                    <label class="col-sm-2 control-label">Coverage</label>
+                                    <div class="col-sm-4">
+                                        <select class="form-control select2" multiple="multiple" data-placeholder="Select coverage area" style="width: 100%;">
+                                            <option selected>PDE</option>
+                                            <option selected>KLB</option>
+                                            <option>KRA</option>
+                                            <option>PKY</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
                                     <label class="col-sm-2 control-label">Phone</label>
                                     <div class="col-sm-4">
                                         <input type="text" class="form-control" placeholder="0987654321">
@@ -67,7 +78,13 @@
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">Avatar</label>
                                     <div class="col-sm-4">
-                                        <input type="file" class="form-control" placeholder="">
+                                        <img src="/npl/images/siluet_duet.jpg" alt="" width="100%">
+                                        <div class="input-group">
+                                            <input type="file" class="form-control">
+                                            <div class="input-group-btn">
+                                                <button type="button" class="btn btn-danger">Remove</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="form-group">

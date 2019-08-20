@@ -129,8 +129,8 @@
                                     <td>40</td>
                                     <td><span class="label label-danger">Rejected</span></td>
                                     <td class="text-center"><a href="#"><i class="fa fa-eye"></i></a></td>
-                                    <td class="text-center"><a href="#"><i class="fa fa-paper-plane text-gray"></i></a></td>
-                                    <td class="text-center"><a href="#"><i class="fa fa-edit text-gray"></i></a></td>
+                                    <td class="text-center"><a href="#"><i class="fa fa-paper-plane"></i></a></td>
+                                    <td class="text-center"><a href="#"><i class="fa fa-edit"></i></a></td>
                                     <td class="text-center"><a href="#"><i class="fa fa-close text-gray"></i></a></td>
                                 </tr>
                                 <tr>

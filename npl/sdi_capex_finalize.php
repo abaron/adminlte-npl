@@ -6,11 +6,11 @@
     <section class="content-header">
         <h1>
             Capex
-            <small>Finalize</small>
+            <small>Complete</small>
         </h1>
         <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-image"></i> Capex</a></li>
-            <li class="active">Finalize</li>
+            <li class="active">Complete</li>
         </ol>
     </section>
 
@@ -20,7 +20,7 @@
             <div class="col-xs-12">
                 <div class="box">
                     <div class="box-header">
-                        <h3 class="box-title">Finalize Capex</h3>
+                        <h3 class="box-title">Complete Capex</h3>
 
                         <div class="box-tools">
                             <div class="input-group input-group-sm" style="width: 150px;">

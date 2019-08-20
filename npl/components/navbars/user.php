@@ -43,7 +43,7 @@
             <li>
               <a href="pages/layout/top-nav.html">
                 <i class="fa fa-circle-o"></i>
-                <span>List NPL</span>
+                <span>Manage NPL</span>
                 <span class="pull-right-container">
                   <span class="label label-primary pull-right">15</span>
                 </span>

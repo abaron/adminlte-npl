@@ -29,7 +29,7 @@
                     <form class="form-horizontal">
                             <div class="box-body">
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label">NIP</label>
+                                    <label class="col-sm-2 control-label">NIK</label>
                                     <div class="col-sm-4">
                                         <input type="text" class="form-control" placeholder="">
                                     </div>
@@ -55,6 +55,17 @@
                                             <option>Optima</option>
                                             <option>User STO</option>
                                             <option>Project Deployer</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Coverage</label>
+                                    <div class="col-sm-4">
+                                        <select class="form-control select2" multiple="multiple" data-placeholder="Select coverage area" style="width: 100%;">
+                                            <option>PDE</option>
+                                            <option>KLB</option>
+                                            <option>KRA</option>
+                                            <option>PKY</option>
                                         </select>
                                     </div>
                                 </div>
