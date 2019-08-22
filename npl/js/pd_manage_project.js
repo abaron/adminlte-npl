@@ -2,11 +2,11 @@ $(document).on("click", ".update-status", function(e){
     e.preventDefault();
 
     $.confirm({
-        title: 'Update Status Project!',
+        title: 'Update Project Status!',
         content: '' +
         '<form action="" class="">' +
-        '<div class="form-group">' +
-            '<label>Status</label>' +
+        '<div class="form-group required">' +
+            '<label class="control-label">Status</label>' +
             '<label class="label label-primary pull-right">33 / PDE / VII / 2019</label>' +
             '<select class="name form-control" required>' +
             '<option disabled>-- Pilih --</option>' +
@@ -22,7 +22,7 @@ $(document).on("click", ".update-status", function(e){
         '</div>' +
         '<div class="form-group">' +
             '<label>Remark</label>' +
-            '<textarea class="form-control" required>' +
+            '<textarea class="form-control" required placeholder="Fill your remark">' +
             '</textarea>' +
         '</div>' +
         '</form>',
@@ -63,30 +63,30 @@ $(document).on("click", ".project-upload", function(e){
         type: 'blue',
         content: '' +
         '<form action="" class="">' +
-        '<div class="form-group">' +
-            '<label>As-built BoQ</label>' +
+        '<div class="form-group required">' +
+            '<label class="control-label">As-built BoQ</label>' +
             '<label class="label label-primary pull-right" data-tooltip="true" data-toggle="tooltip" data-placement="right" title="Supported files: "><i class="fa fa-info"></i></label> ' +
             '<label class="label label-primary pull-right" style="margin-right: 5px">33 / PDE / VII / 2019</label> ' +
-            '<div class="form-group">' +
+            '<div class="form-group required">' +
                 '<input type="file" class="form-control">' +
             '</div>' +
         '</div>' +
-        '<div class="form-group">' +
-            '<label>As-built Drawing</label>' +
+        '<div class="form-group required">' +
+            '<label class="control-label">As-built Drawing</label>' +
             '<label class="label label-primary pull-right" data-tooltip="true" data-toggle="tooltip" data-placement="right" title="Supported files: "><i class="fa fa-info"></i></label> ' +
-            '<div class="form-group">' +
+            '<div class="form-group required">' +
                 '<input type="file" class="form-control">' +
             '</div>' +
         '</div>' +
-        '<div class="form-group">' +
-            '<label>Management Core</label>' +
+        '<div class="form-group required">' +
+            '<label class="control-label">Management Core</label>' +
             '<label class="label label-primary pull-right" data-tooltip="true" data-toggle="tooltip" data-placement="right" title="Supported files: "><i class="fa fa-info"></i></label> ' +
-            '<div class="form-group">' +
+            '<div class="form-group required">' +
                 '<input type="file" class="form-control">' +
             '</div>' +
         '</div>' +
-        '<div class="form-group">' +
-            '<label>Documents</label>' +
+        '<div class="form-group required">' +
+            '<label class="control-label">Documents</label>' +
             '<label class="label label-primary pull-right" data-tooltip="true" data-toggle="tooltip" data-placement="right" title="Supported files: "><i class="fa fa-info"></i></label>' +
             '<div class="input-group">' +
                 '<input type="file" class="form-control">' +
@@ -95,8 +95,8 @@ $(document).on("click", ".project-upload", function(e){
                 '</div>' +
             '</div>' +
         '</div>' +
-        '<div class="form-group">' +
-            '<label>Evidence</label>' +
+        '<div class="form-group required">' +
+            '<label class="control-label">Evidence</label>' +
             '<label class="label label-primary pull-right" data-tooltip="true" data-toggle="tooltip" data-placement="right" title="Supported files: "><i class="fa fa-info"></i></label>' +
             '<div class="input-group">' +
                 '<input type="file" class="form-control">' +
@@ -107,7 +107,7 @@ $(document).on("click", ".project-upload", function(e){
         '</div>' +
         '<div class="form-group">' +
             '<label>Remark</label>' +
-            '<textarea class="form-control" required>' +
+            '<textarea class="form-control" required placeholder="Fill your remark">' +
             '</textarea>' +
         '</div>' +
         '</form>',
@@ -119,6 +119,11 @@ $(document).on("click", ".project-upload", function(e){
                 text: 'Upload',
                 btnClass: 'btn-blue'
             },
+        },
+        onOpenBefore: function() {
+                $('[data-tooltip="true"]').tooltip();
+                $('[data-toggle="tooltip"]').tooltip();
+                $('[data-toggle="popover"]').popover();
         }
     });
 });

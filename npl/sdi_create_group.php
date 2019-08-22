@@ -30,21 +30,21 @@
                         <div class="box-body">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="inputWork">Name</label>
+                                    <div class="form-group required">
+                                        <label class="control-label" for="inputWork">Name</label>
                                         <input type="email" class="form-control" id="inputWork" value="" placeholder="">
                                     </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputDes">Description</label>
+                                    <div class="form-group required">
+                                        <label class="control-label" for="exampleInputDes">Description</label>
                                         <input type="email" class="form-control" id="exampleInputDes" value=""
                                             placeholder="">
                                     </div>
-                                    <div class="form-group">
-                                        <label for="inputNumb">Number</label>
+                                    <div class="form-group required">
+                                        <label class="control-label" for="inputNumb">Number</label>
                                         <input type="email" class="form-control" id="inputNumb" value="" placeholder="">
                                     </div>
-                                    <div class="form-group">
-                                        <label for="inputBase">Capex Type</label>
+                                    <div class="form-group required">
+                                        <label class="control-label" for="inputBase">Capex Type</label>
                                         <select class="form-control">
                                             <option selected disabled>-- Choose ---</option>
                                             <option>FTTH</option>
@@ -53,8 +53,8 @@
                                             <option>QE</option>
                                         </select>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="inputDate">Date</label>
+                                    <div class="form-group required">
+                                        <label class="control-label" for="inputDate">Date</label>
                                         <div class="input-group date">
                                             <input type="text" class="form-control pull-right" id="inputDate" value=""
                                                 placeholder="">
@@ -66,18 +66,18 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="inputPartner">Partner</label>
+                                    <div class="form-group required">
+                                        <label class="control-label" for="inputPartner">Partner</label>
                                         <input type="text" class="form-control" id="inputPartner" value=""
                                             placeholder="">
                                     </div>
-                                    <div class="form-group">
-                                        <label for="inputBudget">Budget</label>
+                                    <div class="form-group required">
+                                        <label class="control-label" for="inputBudget">Budget</label>
                                         <input type="text" class="form-control" id="inputBudget" value=""
                                             placeholder="">
                                     </div>
-                                    <div class="form-group">
-                                        <label for="inputPeriod">Period</label>
+                                    <div class="form-group required">
+                                        <label class="control-label" for="inputPeriod">Period</label>
                                         <div class="input-group">
                                             <span class="input-group-addon">
                                                 <i class="fa fa-calendar"></i>

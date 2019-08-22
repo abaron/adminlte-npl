@@ -28,7 +28,7 @@
 
                                 <div class="input-group-btn">
                                     <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
-                                    <button type="submit" class="btn btn-primary" style="margin-left: 10px;"><i class="fa fa-download"></i> Export</button>
+                                    <button type="submit" class="btn btn-primary" style="margin-left: 10px;"><i class="fa fa-download"></i> Export as csv</button>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +57,7 @@
                                     <th>8</th>
                                     <th>16</th>
                                     <th>View</th>
-                                    <th>Edit</th>
+                                    <th>Add Detail</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -163,7 +163,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Upload Design Details</h4>
+                <h4 class="modal-title">Add Design Details</h4>
                 <label class="label label-primary">33 / SPE / X / 2018</label>
             </div>
             <div class="modal-body">
@@ -171,43 +171,43 @@
                     <div class="box-body">
                         <form class="form-horizontal">
                             <div class="box-body">
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label for="" class="col-sm-4 control-label">As-plan Draw</label>
                                     <div class="col-sm-8">
                                         <input type="file" class="form-control">
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label for="" class="col-sm-4 control-label">As-plan BoQ</label>
                                     <div class="col-sm-8">
                                         <input type="file" class="form-control">
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label for="" class="col-sm-4 control-label">ODP 8</label>
                                     <div class="col-sm-8">
                                         <input type="text" class="form-control">
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label for="" class="col-sm-4 control-label">ODP 16</label>
                                     <div class="col-sm-8">
                                         <input type="text" class="form-control">
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label for="" class="col-sm-4 control-label">Kabel 12</label>
                                     <div class="col-sm-8">
                                         <input type="text" class="form-control">
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label for="" class="col-sm-4 control-label">Kabel 24</label>
                                     <div class="col-sm-8">
                                         <input type="text" class="form-control">
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label for="" class="col-sm-4 control-label">Tiang 7M</label>
                                     <div class="col-sm-8">
                                         <input type="text" class="form-control">

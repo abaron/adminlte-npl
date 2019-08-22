@@ -29,7 +29,7 @@
                             <tbody>
                                 <tr>
                                     <td style="width:65%">
-                                        <div class="form-group">
+                                        <div class="form-group required">
                                             <label for="kancatel-input" class="col-sm-2 control-label">Kancatel</label>
                                             <div class="col-sm-10">
                                                 <input type="text" class="form-control" id="kancatel-input" placeholder="Nama Kancatel">
@@ -37,7 +37,7 @@
                                         </div>
                                     </td>
                                     <td>
-                                        <div class="form-group">
+                                        <div class="form-group required">
                                             <label for="STO-input" class="col-sm-2 control-label">STO</label>
                                             <div class="col-sm-10">
                                                 <select class="form-control" id="STO-input">
@@ -53,7 +53,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <div class="form-group">
+                                        <div class="form-group required">
                                             <label for="nomor-input" class="col-sm-2 control-label">Nomor</label>
                                             <div class="col-sm-10">
                                                 <input type="text" class="form-control" id="nomor-input" value="33 / PDE / X / 2019" readonly>
@@ -61,7 +61,7 @@
                                         </div>
                                     </td>
                                     <td>
-                                        <div class="form-group">
+                                        <div class="form-group required">
                                             <label for="tanggal-input" class="col-sm-2 control-label">Tanggal</label>
                                             <div class="col-sm-10">
                                                 <input type="text" class="form-control" id="tanggal-input" value="20 Juli 2019" readonly>
@@ -70,8 +70,8 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="text-center"><b>HASIL PEMERIKSAAN</b></td>
-                                    <td class="text-center"><b>LINGKUP PEKERJAAN</b></td>
+                                    <td class="text-center"><b>HASIL PEMERIKSAAN<span class="text-red">*</span></b></td>
+                                    <td class="text-center"><b>LINGKUP PEKERJAAN<span class="text-red">*</span></b></td>
                                 </tr>
                                 <tr>
                                     <td>
@@ -82,7 +82,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td colspan="2" class="text-center"><b>GAMBAR LOKASI</b></td>
+                                    <td colspan="2" class="text-center"><b>GAMBAR LOKASI<span class="text-red">*</span></b></td>
                                 </tr>
                                 <tr>
                                     <td colspan="2" class="text-center"></td>
@@ -109,7 +109,7 @@
                                 <tr>
                                     <td colspan="2">
                                         <div class="col-md-6">
-                                            <div class="form-group">
+                                            <div class="form-group required">
                                                 <label for="" class="col-sm-4 control-label">Latitude</label>
                                                 <div class="col-sm-8">
                                                     <div class="input-group">
@@ -120,7 +120,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="form-group">
+                                            <div class="form-group required">
                                                 <label for="" class="col-sm-4 control-label">Longitude</label>
                                                 <div class="col-sm-8">
                                                     <div class="input-group">
@@ -139,13 +139,13 @@
                                 <tr>
                                     <td>
                                         <span>PENARIKAN KABEL FO:</span>
-                                        <div class="form-group">
+                                        <div class="form-group required">
                                             <label for="" class="col-sm-4 control-label">Kabel Fiber Optik</label>
                                             <div class="col-sm-4">
                                                 <input type="text" class="form-control" id="" placeholder="Kabel Fiber Optik">
                                             </div>
                                         </div>
-                                        <div class="form-group">
+                                        <div class="form-group required">
                                             <label for="" class="col-sm-4 control-label">Pembangunan PT<br /><sup>(Provisioning Type)</sup></label>
                                             <div class="col-sm-4">
                                                 <select class="form-control" id="">
@@ -158,7 +158,7 @@
                                         </div>
                                     </td>
                                     <td>
-                                        <!-- <div class="form-group">
+                                        <!-- <div class="form-group required">
                                             <label for="" class="col-sm-4 control-label">Feeder</label>
                                             <div class="col-sm-8">
                                                 <div class="input-group">
@@ -167,7 +167,7 @@
                                                 </div>
                                             </div>
                                         </div> -->
-                                        <div class="form-group">
+                                        <div class="form-group required">
                                             <label for="" class="col-sm-4 control-label">Spliter 1/4</label>
                                             <div class="col-sm-8">
                                                 <div class="input-group">
@@ -176,7 +176,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="form-group">
+                                        <div class="form-group required">
                                             <label for="" class="col-sm-4 control-label">Spliter 1/8</label>
                                             <div class="col-sm-8">
                                                 <div class="input-group">
@@ -185,7 +185,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="form-group">
+                                        <div class="form-group required">
                                             <label for="" class="col-sm-4 control-label">ODP</label>
                                             <div class="col-sm-8">
                                                 <div class="input-group">
@@ -194,7 +194,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="form-group">
+                                        <div class="form-group required">
                                             <label for="" class="col-sm-4 control-label">Crosure</label>
                                             <div class="col-sm-8">
                                                 <div class="input-group">
@@ -203,7 +203,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="form-group">
+                                        <div class="form-group required">
                                             <label for="" class="col-sm-4 control-label">Tiang</label>
                                             <div class="col-sm-8">
                                                 <div class="input-group">
@@ -217,7 +217,7 @@
                                 <tr>
                                     <td>
                                         <div class="col-md-8 col-md-offset-2">
-                                            <div class="form-group">
+                                            <div class="form-group required">
                                                 <div class="col-sm-8">
                                                     <p class="text-center">MITRA</p>
                                                 </div>
@@ -231,7 +231,7 @@
                                         </div>
                                         <div style="padding-top: 150px"></div>
                                         <div class="col-md-8 col-md-offset-2">
-                                            <div class="form-group">
+                                            <div class="form-group required">
                                                 <div class="col-sm-8">
                                                     <input type="text" class="form-control" placeholder="Nama SM">
                                                 </div>
@@ -243,7 +243,7 @@
                                     </td>
                                     <td>
                                         <div class="col-md-8 col-md-offset-2">
-                                            <div class="form-group">
+                                            <div class="form-group required">
                                                 <div class="col-sm-12">
                                                     <p class="text-center">DISETUJUI</p>
                                                 </div>
@@ -257,7 +257,7 @@
                                         </div>
                                         <div style="padding-top: 150px"></div>
                                         <div class="col-md-8 col-md-offset-2">
-                                            <div class="form-group">
+                                            <div class="form-group required">
                                                 <div class="col-sm-12">
                                                     <input type="text" class="form-control" placeholder="Nama yang menyetujui">
                                                 </div>

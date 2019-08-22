@@ -23,7 +23,7 @@
                         <h3 class="box-title">Detail Capex <label class="label label-success">STTF</label></h3>
 
                         <div class="box-tools">
-                            <button type="submit" class="btn btn-primary" style="margin-left: 10px;"><i class="fa fa-download"></i> Export</button>
+                            <button type="submit" class="btn btn-primary" style="margin-left: 10px;"><i class="fa fa-file-excel-o"></i> Export as xlsx</button>
                         </div>
                     </div>
 

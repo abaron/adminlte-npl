@@ -45,14 +45,12 @@
         <li class="active treeview">
           <a href="#">
             <i class="fa fa-image"></i>
-            <span>Capex</span>
+            <span>Capital Expenditure</span>
             <span class="pull-right-container">
           </a>
           <ul class="treeview-menu">
             <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Create Group</a></li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Manage Group</a></li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Complete Capex</a></li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> History Capex</a></li>
+            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Manage Capex</a></li>
           </ul>
         </li>
         <li class="active treeview">

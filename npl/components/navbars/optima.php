@@ -54,27 +54,6 @@
         <li class="active treeview">
           <a href="#">
             <i class="fa fa-image"></i>
-            <span>Design</span>
-            <span class="pull-right-container">
-              <small class="label pull-right bg-green">3</small>
-              <small class="label pull-right bg-red">2</small>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li>
-              <a href="pages/layout/top-nav.html">
-                <i class="fa fa-circle-o"></i>
-                <span>List Design</span>
-                  <small class="label pull-right bg-green">3</small>
-                  <small class="label pull-right bg-red">2</small>
-                </span>
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li class="active treeview">
-          <a href="#">
-            <i class="fa fa-image"></i>
             <span>Report</span>
             <span class="pull-right-container">
           </a>

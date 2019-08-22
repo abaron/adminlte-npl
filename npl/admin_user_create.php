@@ -28,25 +28,25 @@
                     <!-- form start -->
                     <form class="form-horizontal">
                             <div class="box-body">
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label class="col-sm-2 control-label">NIK</label>
                                     <div class="col-sm-4">
                                         <input type="text" class="form-control" placeholder="">
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label class="col-sm-2 control-label">Full Name</label>
                                     <div class="col-sm-4">
                                         <input type="text" class="form-control" placeholder="">
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label class="col-sm-2 control-label">Email</label>
                                     <div class="col-sm-4">
                                         <input type="text" class="form-control" placeholder="">
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label class="col-sm-2 control-label">Role</label>
                                     <div class="col-sm-4">
                                         <select class="form-control">
@@ -58,7 +58,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label class="col-sm-2 control-label">Coverage</label>
                                     <div class="col-sm-4">
                                         <select class="form-control select2" multiple="multiple" data-placeholder="Select coverage area" style="width: 100%;">
@@ -69,7 +69,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label class="col-sm-2 control-label">Phone</label>
                                     <div class="col-sm-4">
                                         <input type="text" class="form-control" placeholder="">
@@ -79,6 +79,8 @@
                                     <label class="col-sm-2 control-label">Avatar</label>
                                     <div class="col-sm-4">
                                         <input type="file" class="form-control" placeholder="">
+                                        <p class="help-block pull-left"><small>Supported extensions: .jpg, .jpeg, .png</small></p>
+                                        <p class="help-block pull-right"><small>Max size: 7 MB</small></p>
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -88,6 +90,11 @@
                                             <input type="text" class="form-control">
                                             <div class="input-group-btn">
                                                 <button type="button" class="btn btn-success">Generate</button>
+                                            </div>
+                                        </div>
+                                        <div class="progress progress-xxs">
+                                            <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
+                                            <span class="sr-only">10% Complete (warning)</span>
                                             </div>
                                         </div>
                                     </div>

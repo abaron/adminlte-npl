@@ -6,11 +6,11 @@
     <section class="content-header">
         <h1>
             Capex
-            <small>Edit Group</small>
+            <small>Update Group</small>
         </h1>
         <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-image"></i> Capex</a></li>
-            <li class="active">Edit Group</li>
+            <li class="active">Update Group</li>
         </ol>
     </section>
 
@@ -22,7 +22,7 @@
                 <!-- general form elements -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <h3 class="box-title">Edit Group</h3>
+                        <h3 class="box-title">Update Group</h3>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
@@ -30,21 +30,21 @@
                         <div class="box-body">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="inputWork">Name</label>
+                                    <div class="form-group required">
+                                        <label class="control-label" for="inputWork">Name</label>
                                         <input type="email" class="form-control" id="inputWork" value="STTF" placeholder="">
                                     </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputDes">Description</label>
+                                    <div class="form-group required">
+                                        <label class="control-label" for="exampleInputDes">Description</label>
                                         <input type="email" class="form-control" id="exampleInputDes" value="My description"
                                             placeholder="">
                                     </div>
-                                    <div class="form-group">
-                                        <label for="inputNumb">Number</label>
+                                    <div class="form-group required">
+                                        <label class="control-label" for="inputNumb">Number</label>
                                         <input type="email" class="form-control" id="inputNumb" value="72" placeholder="">
                                     </div>
-                                    <div class="form-group">
-                                        <label for="inputBase">Capex Type</label>
+                                    <div class="form-group required">
+                                        <label class="control-label" for="inputBase">Capex Type</label>
                                         <select class="form-control">
                                             <option disabled>-- Choose ---</option>
                                             <option selected>FTTH</option>
@@ -53,8 +53,8 @@
                                             <option>QE</option>
                                         </select>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="inputDate">Date</label>
+                                    <div class="form-group required">
+                                        <label class="control-label" for="inputDate">Date</label>
                                         <div class="input-group date">
                                             <input type="text" class="form-control pull-right" id="inputDate" value="20-07-2019"
                                                 placeholder="">
@@ -66,18 +66,18 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="inputPartner">Partner</label>
+                                    <div class="form-group required">
+                                        <label class="control-label" for="inputPartner">Partner</label>
                                         <input type="text" class="form-control" id="inputPartner" value="My Partner"
                                             placeholder="">
                                     </div>
-                                    <div class="form-group">
-                                        <label for="inputBudget">Budget</label>
+                                    <div class="form-group required">
+                                        <label class="control-label" for="inputBudget">Budget</label>
                                         <input type="text" class="form-control" id="inputBudget" value="30.000.0000"
                                             placeholder="">
                                     </div>
-                                    <div class="form-group">
-                                        <label for="inputPeriod">Period</label>
+                                    <div class="form-group required">
+                                        <label class="control-label" for="inputPeriod">Period</label>
                                         <div class="input-group">
                                             <span class="input-group-addon">
                                                 <i class="fa fa-calendar"></i>

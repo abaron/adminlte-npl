@@ -5,11 +5,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Capex
+            Group Capex
             <small>Manage</small>
         </h1>
         <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Capex</a></li>
+            <li><a href="#"><i class="fa fa-dashboard"></i> Group Capex</a></li>
             <li class="active">Manage</li>
         </ol>
     </section>
@@ -20,7 +20,7 @@
             <div class="col-xs-12">
                 <div class="box">
                     <div class="box-header">
-                        <h3 class="box-title">Manage Capex</h3>
+                        <h3 class="box-title">Manage Group Capex</h3>
 
                         <div class="box-tools">
                             <div class="input-group input-group-sm" style="width: 250px;">
@@ -28,7 +28,7 @@
 
                                 <div class="input-group-btn">
                                     <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
-                                    <button type="submit" class="btn btn-primary" style="margin-left: 10px;"><i class="fa fa-download"></i> Export</button>
+                                    <button type="submit" class="btn btn-primary" style="margin-left: 10px;"><i class="fa fa-download"></i> Export as csv</button>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@
                                 <tr>
                                     <th>View</th>
                                     <th>+/- Project</th>
-                                    <th>Upload</th>
+                                    <th>Add Docs</th>
                                     <th>Complete</th>
                                     <th>Delete</th>
                                 </tr>
@@ -120,7 +120,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Upload Document Capex</h4>
+                <h4 class="modal-title">Add Capex Documents</h4>
                 <label class="label label-primary">STTF</label>
             </div>
             <div class="modal-body">
@@ -128,7 +128,7 @@
                     <div class="box-body">
                         <form class="form-horizontal">
                             <div class="box-body">
-                                <div class="form-group">
+                                <div class="form-group semi-required">
                                     <label for="" class="col-sm-4 control-label">Document Capex</label>
                                     <div class="col-sm-8">
                                         <div class="input-group">
@@ -149,7 +149,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group semi-required">
                                     <label for="" class="col-sm-4 control-label">File DRM</label>
                                     <div class="col-sm-8">
                                         <input type="file" class="form-control">

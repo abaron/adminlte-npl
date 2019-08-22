@@ -6,11 +6,11 @@
     <section class="content-header">
         <h1>
             User
-            <small>Edit</small>
+            <small>Update</small>
         </h1>
         <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-users"></i> User</a></li>
-            <li class="active">Edit</li>
+            <li class="active">Update</li>
         </ol>
     </section>
 
@@ -22,31 +22,31 @@
                 <!-- Horizontal Form -->
                 <div class="box box-info">
                     <div class="box-header with-border">
-                        <h3 class="box-title">Edit User</h3>
+                        <h3 class="box-title">Update User</h3>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
                     <form class="form-horizontal">
                             <div class="box-body">
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label class="col-sm-2 control-label">NIK</label>
                                     <div class="col-sm-4">
                                         <input type="text" class="form-control" value="1234567890">
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label class="col-sm-2 control-label">Full Name</label>
                                     <div class="col-sm-4">
                                         <input type="text" class="form-control" value="John Wick">
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label class="col-sm-2 control-label">Email</label>
                                     <div class="col-sm-4">
                                         <input type="text" class="form-control" value="john@telkom.ac.id">
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label class="col-sm-2 control-label">Role</label>
                                     <div class="col-sm-4">
                                         <select class="form-control">
@@ -58,7 +58,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label class="col-sm-2 control-label">Coverage</label>
                                     <div class="col-sm-4">
                                         <select class="form-control select2" multiple="multiple" data-placeholder="Select coverage area" style="width: 100%;">
@@ -69,10 +69,10 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label class="col-sm-2 control-label">Phone</label>
                                     <div class="col-sm-4">
-                                        <input type="text" class="form-control" placeholder="0987654321">
+                                        <input type="text" class="form-control" value="0987654321">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -85,15 +85,22 @@
                                                 <button type="button" class="btn btn-danger">Remove</button>
                                             </div>
                                         </div>
+                                        <p class="help-block pull-left"><small>Supported extensions: .jpg, .jpeg, .png</small></p>
+                                        <p class="help-block pull-right"><small>Max size: 7 MB</small></p>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">Password</label>
                                     <div class="col-sm-4">
                                         <div class="input-group">
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" value="B1nu$i4n">
                                             <div class="input-group-btn">
                                                 <button type="button" class="btn btn-success">Generate</button>
+                                            </div>
+                                        </div>
+                                        <div class="progress progress-xxs">
+                                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                            <span class="sr-only">100% Complete (warning)</span>
                                             </div>
                                         </div>
                                     </div>

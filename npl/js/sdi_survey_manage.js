@@ -6,8 +6,8 @@ $(document).on("click", ".survey-upload", function(e){
         type: 'blue',
         content: '' +
         '<form action="" class="">' +
-        '<div class="form-group">' +
-            '<label>Evidence Survey</label>' +
+        '<div class="form-group required">' +
+            '<label class="control-label">Evidence Survey</label>' +
             '<label class="label label-primary pull-right" data-tooltip="true" data-toggle="tooltip" data-placement="right" title="Supported files: "><i class="fa fa-info"></i></label>' +
             '<div class="input-group">' +
                 '<input type="file" class="form-control">' +
@@ -16,8 +16,8 @@ $(document).on("click", ".survey-upload", function(e){
                 '</div>' +
             '</div>' +
         '</div>' +
-        '<div class="form-group">' +
-            '<label>File Survey</label>' +
+        '<div class="form-group required">' +
+            '<label class="control-label">File Survey</label>' +
             '<label class="label label-primary pull-right" data-tooltip="true" data-toggle="tooltip" data-placement="right" title="Supported files: "><i class="fa fa-info"></i></label>' +
             '<div class="input-group">' +
                 '<input type="file" class="form-control">' +
@@ -28,7 +28,7 @@ $(document).on("click", ".survey-upload", function(e){
         '</div>' +
         '<div class="form-group">' +
             '<label>Remark</label>' +
-            '<textarea class="form-control" required>' +
+            '<textarea class="form-control" required placeholder="Fill your remark">' +
             '</textarea>' +
         '</div>' +
         '</form>',
@@ -54,11 +54,11 @@ $(document).on("click", ".survey-delete", function(e){
         '<div class="form-group">' +
             '<label>Remark</label>' +
             '<label class="label label-primary pull-right">33 / PDE / VII / 2019</label>' +
-            '<textarea class="form-control" required>' +
+            '<textarea class="form-control" required placeholder="Fill your remark">' +
             '</textarea>' +
         '</div>' +
-        '<div class="form-group">' +
-            '<label>Evidence Survey</label>' +
+        '<div class="form-group required">' +
+            '<label class"control-label">Evidence Survey*</label>' +
             '<label class="label label-primary pull-right" data-tooltip="true" data-toggle="tooltip" data-placement="right" title="Supported files: "><i class="fa fa-info"></i></label>' +
             '<div class="input-group">' +
                 '<input type="file" class="form-control">' +

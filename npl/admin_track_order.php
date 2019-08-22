@@ -25,7 +25,7 @@
                         <div class="box-tools">
                             <div class="input-group input-group-sm" style="width: 250px;">
                                 <div class="input-group-btn">
-                                    <button type="submit" class="btn btn-primary pull-right" style="margin-left: 10px;"><i class="fa fa-download"></i> Export</button>
+                                    <button type="submit" class="btn btn-primary pull-right" style="margin-left: 10px;"><i class="fa fa-download"></i> Export as csv</button>
                                 </div>
                             </div>
                         </div>

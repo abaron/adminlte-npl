@@ -53,7 +53,7 @@
                     <th colspan="2">Action</th>
                   </tr>
                   <tr>
-                    <th>Edit</th>
+                    <th>Update</th>
                     <th>Remove</th>
                   </tr>
                 </thead>

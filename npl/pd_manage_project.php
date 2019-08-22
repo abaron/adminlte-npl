@@ -29,7 +29,7 @@
                                 <div class="input-group-btn">
                                     <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
                                     <button type="submit" class="btn btn-primary" style="margin-left: 10px;"><i
-                                            class="fa fa-download"></i> Export</button>
+                                            class="fa fa-download"></i> Export as csv</button>
                                 </div>
                             </div>
                         </div>
@@ -229,16 +229,13 @@
                     <!-- general form elements -->
                     <div class="box box-primary">
                         <div class="box-header with-border">
-                            <h3 class="box-title">
-                                <!-- Title --></label></h3>
-                            <h3 class="box-title pull-right"><label class="label label-primary">
-                                    <!-- Title --></label></h3>
+                            <h3 class="box-title"></h3>
                         </div>
                         <!-- /.box-header -->
                         <!-- form start -->
                         <form class="form-horizontal">
                             <div class="box-body">
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label for="" class="col-sm-4 control-label">Aktual Kabel 12
                                         Core</label>
                                     <div class="col-sm-8">
@@ -252,7 +249,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label for="" class="col-sm-4 control-label">Aktual Kabel 24
                                         Core</label>
                                     <div class="col-sm-8">
@@ -266,7 +263,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label for="" class="col-sm-4 control-label">Aktual ODP 8</label>
                                     <div class="col-sm-8">
                                         <div class="input-group">
@@ -279,7 +276,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label for="" class="col-sm-4 control-label">Aktual ODP 16</label>
                                     <div class="col-sm-8">
                                         <div class="input-group">
@@ -292,7 +289,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label for="" class="col-sm-4 control-label">Aktual Tiang</label>
                                     <div class="col-sm-8">
                                         <div class="input-group">
@@ -305,7 +302,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label for="" class="col-sm-4 control-label">Aksesoris</label>
                                     <div class="col-sm-8">
                                         <div class="input-group">
@@ -318,7 +315,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label for="" class="col-sm-4 control-label">Material</label>
                                     <div class="col-sm-8">
                                         <div class="input-group">
@@ -331,7 +328,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label for="" class="col-sm-4 control-label">Jasa</label>
                                     <div class="col-sm-8">
                                         <div class="input-group">
@@ -344,7 +341,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group required">
                                     <label for="" class="col-sm-4 control-label">Total</label>
                                     <div class="col-sm-8">
                                         <div class="input-group">

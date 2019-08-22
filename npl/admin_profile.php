@@ -28,33 +28,35 @@
             <!-- form start -->
             <form role="form">
               <div class="box-body">
-                <div class="form-group">
-                  <label for="exampleInputNip">NIP</label>
+                <div class="form-group required">
+                  <label class="control-label" for="exampleInputNip">NIP</label>
                   <input type="email" class="form-control" id="exampleInputNip" value="889189759039" disabled="disabled">
                 </div>
-                <div class="form-group">
-                  <label for="inputFullname">Fullname</label>
+                <div class="form-group required">
+                  <label class="control-label" for="inputFullname">Fullname</label>
                   <input type="email" class="form-control" id="inputFullname" value="Arhubel Binus" disabled="disabled">
                 </div>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
+                <div class="form-group required">
+                  <label class="control-label" for="exampleInputEmail1">Email address</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" value="arhubel.binus@telkom.co.id" disabled="disabled">
                 </div>
-                <div class="form-group">
-                  <label for="exampleInputPhone">Phone</label>
+                <div class="form-group required">
+                  <label class="control-label" for="exampleInputPhone">Phone</label>
                   <input type="text" class="form-control" id="exampleInputPhone" placeholder="Password" value="0813995731">
                 </div>
                 <div class="form-group">
                   <label for="exampleInputFile">Avatar</label>
-                  <input type="file" id="exampleInputFile">
+                  <input type="file" class="form-control" id="exampleInputFile">
 
-                  <p class="help-block">Supported extension: .jpg, .jpeg, .png</p>
+                  <p class="help-block text-left"><small>Supported extensions: .jpg, .jpeg, .png</small></p>
+                  <p class="help-block text-left"><small>Max size: 7 MB</small></p>
                 </div>
               </div>
               <!-- /.box-body -->
 
               <div class="box-footer">
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-default pull-left">Cancel</button>
+                <button type="submit" class="btn btn-primary pull-right">Submit</button>
               </div>
             </form>
           </div>
@@ -72,19 +74,24 @@
             <!-- form start -->
             <form class="form-horizontal">
               <div class="box-body">
-                <div class="form-group">
+                <div class="form-group required">
                   <label for="inputPassword3" class="col-sm-4 control-label">Old password</label>
                   <div class="col-sm-8">
                     <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
                   </div>
                 </div>
-                <div class="form-group">
+                <div class="form-group required">
                   <label for="inputPasswordNew" class="col-sm-4 control-label">New password</label>
                   <div class="col-sm-8">
                     <input type="password" class="form-control" id="inputPasswordNew" placeholder="Password">
+                    <div class="progress progress-xxs">
+                      <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
+                        <span class="sr-only">10% Complete (warning)</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="form-group">
+                <div class="form-group required">
                   <label for="inputPasswordReNew" class="col-sm-4 control-label">Re-New password</label>
                   <div class="col-sm-8">
                     <input type="password" class="form-control" id="inputPasswordReNew" placeholder="Password">

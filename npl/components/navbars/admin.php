@@ -31,7 +31,7 @@
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
           </a>
         </li>
-        <li class="active treeview">
+        <!-- <li class="active treeview">
           <a href="#">
             <i class="fa fa-users"></i> <span>User Management</span>
             <span class="pull-right-container">
@@ -39,10 +39,10 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Manage User</a></li>
             <li><a href="index2.html"><i class="fa fa-user-plus"></i> Create User</a></li>
+            <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Manage User</a></li>
           </ul>
-        </li>
+        </li> -->
         <li class="active treeview">
           <a href="#">
             <i class="fa fa-files-o"></i>
@@ -52,35 +52,28 @@
             </span>
           </a>
           <ul class="treeview-menu">
+            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Create NPL</a></li>
             <li>
               <a href="pages/layout/top-nav.html">
                 <i class="fa fa-circle-o"></i>
-                <span>List NPL</span>
+                <span>Manage NPL</span>
                 <span class="pull-right-container">
                   <span class="label label-primary pull-right">15</span>
                 </span>
               </a>
             </li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Create NPL</a></li>
           </ul>
         </li>
         <li class="active treeview">
           <a href="#">
             <i class="fa fa-image"></i>
-            <span>Design</span>
-            <span class="pull-right-container">
-              <small class="label pull-right bg-green">3</small>
-              <small class="label pull-right bg-red">2</small>
-            </span>
+            <span>Survey & Design</span>
           </a>
           <ul class="treeview-menu">
             <li>
               <a href="pages/layout/top-nav.html">
                 <i class="fa fa-circle-o"></i>
-                <span>List Design</span>
-                  <small class="label pull-right bg-green">3</small>
-                  <small class="label pull-right bg-red">2</small>
-                </span>
+                <span>Manage Survey</span>
               </a>
             </li>
             <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Create Design</a></li>
@@ -104,22 +97,18 @@
             <span class="pull-right-container">
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Project</a></li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Finalize Project</a></li>
+            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Manage Project</a></li>
           </ul>
         </li>
         <li class="active treeview">
           <a href="#">
             <i class="fa fa-image"></i>
-            <span>Capex</span>
+            <span>Capital Expenditure</span>
             <span class="pull-right-container">
           </a>
           <ul class="treeview-menu">
             <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Create Group</a></li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Manage Group</a></li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Finalize Capex</a></li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> History Capex</a></li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Input DRM</a></li>
+            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Manage Capex</a></li>
           </ul>
         </li>
         <li class="active treeview">

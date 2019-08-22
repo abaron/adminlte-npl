@@ -40,6 +40,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
+            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Create NPL</a></li>
             <li>
               <a href="pages/layout/top-nav.html">
                 <i class="fa fa-circle-o"></i>
@@ -49,13 +50,7 @@
                 </span>
               </a>
             </li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Create NPL</a></li>
           </ul>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fa fa-edit"></i> <span>Draft</span>
-          </a>
         </li>
         <li class="active treeview">
           <a href="#">
