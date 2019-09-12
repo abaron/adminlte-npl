@@ -27,7 +27,7 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
         <li>
-          <a href="#">
+          <a href="http://npl.local.host/?page=sdi_home">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
           </a>
         </li>
@@ -38,8 +38,8 @@
             <span class="pull-right-container">
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Manage Survey</a></li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Manage Design</a></li>
+            <li><a href="http://npl.local.host/?page=sdi_survey_manage"><i class="fa fa-circle-o"></i> Manage Survey</a></li>
+            <li><a href="http://npl.local.host/?page=sdi_design_manage"><i class="fa fa-circle-o"></i> Manage Design</a></li>
           </ul>
         </li>
         <li class="active treeview">
@@ -49,8 +49,8 @@
             <span class="pull-right-container">
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Create Group</a></li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Manage Capex</a></li>
+            <li><a href="http://npl.local.host/?page=sdi_create_group"><i class="fa fa-circle-o"></i> Create Group</a></li>
+            <li><a href="http://npl.local.host/?page=sdi_capex_manage"><i class="fa fa-circle-o"></i> Manage Capex</a></li>
           </ul>
         </li>
         <li class="active treeview">
@@ -60,8 +60,8 @@
             <span class="pull-right-container">
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> General</a></li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Track Order</a></li>
+            <li><a href="http://npl.local.host/?page=admin_report_general"><i class="fa fa-circle-o"></i> General</a></li>
+            <li><a href="http://npl.local.host/?page=admin_track_order"><i class="fa fa-circle-o"></i> Track Order</a></li>
           </ul>
         </li>
 

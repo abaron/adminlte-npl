@@ -27,7 +27,7 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
         <li>
-          <a href="#">
+          <a href="/?page=admin_home">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
           </a>
         </li>
@@ -52,9 +52,9 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Create NPL</a></li>
+            <li><a href="http://npl.local.host/?page=user_npl_create"><i class="fa fa-circle-o"></i> Create NPL</a></li>
             <li>
-              <a href="pages/layout/top-nav.html">
+              <a href="http://npl.local.host/?page=user_npl_list">
                 <i class="fa fa-circle-o"></i>
                 <span>Manage NPL</span>
                 <span class="pull-right-container">
@@ -71,12 +71,12 @@
           </a>
           <ul class="treeview-menu">
             <li>
-              <a href="pages/layout/top-nav.html">
+              <a href="http://npl.local.host/?page=sdi_survey_manage">
                 <i class="fa fa-circle-o"></i>
                 <span>Manage Survey</span>
               </a>
             </li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Create Design</a></li>
+            <li><a href="http://npl.local.host/?page=sdi_design_manage"><i class="fa fa-circle-o"></i> Create Design</a></li>
           </ul>
         </li>
         <li class="active treeview">
@@ -86,8 +86,8 @@
             <span class="pull-right-container">
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Survei</a></li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Design</a></li>
+            <li><a href="http://npl.local.host/?page=sdi_survey_manage"><i class="fa fa-circle-o"></i> Survei</a></li>
+            <li><a href="http://npl.local.host/?page=sdi_design_manage"><i class="fa fa-circle-o"></i> Design</a></li>
           </ul>
         </li>
         <li class="active treeview">
@@ -97,7 +97,7 @@
             <span class="pull-right-container">
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Manage Project</a></li>
+            <li><a href="http://npl.local.host/?page=pd_manage_project"><i class="fa fa-circle-o"></i> Manage Project</a></li>
           </ul>
         </li>
         <li class="active treeview">
@@ -107,8 +107,8 @@
             <span class="pull-right-container">
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Create Group</a></li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Manage Capex</a></li>
+            <li><a href="http://npl.local.host/?page=sdi_create_group"><i class="fa fa-circle-o"></i> Create Group</a></li>
+            <li><a href="http://npl.local.host/?page=sdi_capex_manage"><i class="fa fa-circle-o"></i> Manage Capex</a></li>
           </ul>
         </li>
         <li class="active treeview">
@@ -118,8 +118,8 @@
             <span class="pull-right-container">
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> General</a></li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Track Order</a></li>
+            <li><a href="http://npl.local.host/?page=admin_report_general"><i class="fa fa-circle-o"></i> General</a></li>
+            <li><a href="http://npl.local.host/?page=admin_track_order"><i class="fa fa-circle-o"></i> Track Order</a></li>
           </ul>
         </li>
 

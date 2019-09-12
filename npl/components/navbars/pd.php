@@ -27,7 +27,7 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
         <li>
-          <a href="#">
+          <a href="http://npl.local.host/?page=pd_home">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
           </a>
         </li>
@@ -38,7 +38,7 @@
             <span class="pull-right-container">
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Manage Project</a></li>
+            <li><a href="http://npl.local.host/?page=pd_manage_project"><i class="fa fa-circle-o"></i> Manage Project</a></li>
           </ul>
         </li>
         <li class="active treeview">
@@ -48,8 +48,8 @@
             <span class="pull-right-container">
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> General</a></li>
-            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Track Order</a></li>
+            <li><a href="http://npl.local.host/?page=admin_report_general"><i class="fa fa-circle-o"></i> General</a></li>
+            <li><a href="http://npl.local.host/?page=admin_track_order"><i class="fa fa-circle-o"></i> Track Order</a></li>
           </ul>
         </li>
 
